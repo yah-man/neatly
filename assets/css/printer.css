@@ -1,0 +1,38 @@
+@media print {
+  /* Hide elements */
+  form,
+  button,
+  input,
+  select,
+  textarea,
+  .screen-reader-text,
+  .page-links,
+  .edit-link,
+  .comments-pagination,
+  .comment-respond,
+  .comment-edit-link,
+  .comment-reply-link,
+  .nav_h,
+  .nav_f,
+  .sidebar,
+  .f_widget_wrap,
+  .page_link_next,
+  .navigation,
+  #toggle-menu,
+  .adjacents,
+  #breadcrumb,
+  #header_widget,
+  #about_author,
+  .widget,
+  .social_share_list,
+  .cta_box,
+  .blog_card {
+    display: none !important; }
+
+  .h_wrap {
+    box-shadow: none; }
+
+  .f_credit {
+    border: none; } }
+
+/*# sourceMappingURL=printer.css.map */

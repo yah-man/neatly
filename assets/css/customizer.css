@@ -1,0 +1,21 @@
+.neatly_posts_sortable_ul li {
+  padding: 8px 12px;
+  border: 1px solid #333;
+  background: #fff;
+  cursor: move;
+  touch-action: none; }
+  .neatly_posts_sortable_ul li.invisible {
+    color: #aaa;
+    border: 1px dashed #aaa; }
+    .neatly_posts_sortable_ul li.invisible .dashicons.visibility {
+      color: #aaa; }
+  .neatly_posts_sortable_ul li .dashicons-visibility {
+    cursor: pointer; }
+
+.neatly_posts_sortable_ul li i.dashicons-visibility {
+  margin-right: 8px; }
+
+.neatly_posts_sortable_ul li i.dashicons-menu {
+  float: right; }
+
+/*# sourceMappingURL=customizer.css.map */

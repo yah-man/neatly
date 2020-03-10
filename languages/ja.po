@@ -1,0 +1,1413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Neatly\n"
+"POT-Creation-Date: 2020-03-10 13:44+0900\n"
+"PO-Revision-Date: 2020-03-10 13:45+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:8
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "お探しのページが見つかりません。"
+
+#: comments.php:30
+msgid "One Comment"
+msgstr "1件のコメント"
+
+#: comments.php:35
+#, php-format
+msgid "%1$s Comments"
+msgstr "%1$s件のコメント"
+
+#: comments.php:59
+msgid "One Pingback"
+msgstr "1件のピンバック"
+
+#: comments.php:63
+#, php-format
+msgid "%1$s Pingbacks"
+msgstr "%1$s件のピンバック"
+
+#: comments.php:83
+msgid "Older Comments"
+msgstr "以前のコメント"
+
+#: comments.php:84
+msgid "Newer Comments"
+msgstr "新しいコメント"
+
+#: comments.php:95 comments.php:103
+msgid "Comments are closed."
+msgstr "コメントは停止中です。"
+
+#: comments.php:101
+msgid "Write a comment"
+msgstr "コメントを書く"
+
+#: comments.php:135
+msgid "Post Comment"
+msgstr "コメントを送信"
+
+#: comments.php:137
+msgid "Leave a Comment"
+msgstr "コメントする"
+
+#: comments.php:141 inc/customizer/setting-posts.php:103
+msgid "Comments"
+msgstr "コメント"
+
+#: comments.php:146
+msgctxt "comment placeholder"
+msgid "Name"
+msgstr "お名前"
+
+#: comments.php:151
+msgid "Email"
+msgstr "E メール"
+
+#: comments.php:155
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: comments.php:159
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+"次回のコメントで使用するためブラウザーに自分の名前、メールアドレス、サイトを"
+"保存する。"
+
+#: functions.php:42
+msgid "Header Menu"
+msgstr "ヘッダーのメニュー"
+
+#: functions.php:43
+msgid "Footer Menu"
+msgstr "フッターのメニュー"
+
+#: functions.php:44
+msgid "Credit Menu"
+msgstr "クレジットエリアのメニュー"
+
+#: inc/breadcrumbs.php:11
+msgid "Home"
+msgstr "ホーム"
+
+#: inc/breadcrumbs.php:133
+msgid "Author archive for "
+msgstr "投稿者のアーカイブ"
+
+#: inc/breadcrumbs.php:178 inc/breadcrumbs.php:185
+#, php-format
+msgid "Search query for: %s"
+msgstr "検索結果:%s"
+
+#: inc/breadcrumbs.php:185 inc/breadcrumbs.php:198
+#, php-format
+msgid "( Page %s )"
+msgstr "( %s ページ目 )"
+
+#: inc/breadcrumbs.php:190
+msgid "Error 404"
+msgstr "エラー 404"
+
+#: inc/customizer/control-sortable.php:60
+msgctxt "post_sortable"
+msgid "Breadcrumbs"
+msgstr "パンくずリスト"
+
+#: inc/customizer/control-sortable.php:63
+msgctxt "post_sortable"
+msgid "Title"
+msgstr "タイトル"
+
+#: inc/customizer/control-sortable.php:66
+msgctxt "post_sortable"
+msgid "Date"
+msgstr "日付"
+
+#: inc/customizer/control-sortable.php:69
+msgctxt "post_sortable"
+msgid "Author & Date"
+msgstr "投稿者と日付"
+
+#: inc/customizer/control-sortable.php:72
+msgctxt "post_sortable"
+msgid "Page views"
+msgstr "ページビュー数"
+
+#: inc/customizer/control-sortable.php:75
+msgctxt "post_sortable"
+msgid "Thumbnail"
+msgstr "サムネイル"
+
+#: inc/customizer/control-sortable.php:78
+msgctxt "post_sortable"
+msgid "Content"
+msgstr "記事本文"
+
+#: inc/customizer/control-sortable.php:81
+#: inc/customizer/control-sortable.php:84
+#: inc/customizer/control-sortable.php:87
+#: inc/customizer/control-sortable.php:90
+#: inc/customizer/control-sortable.php:93
+msgctxt "post_sortable"
+msgid "Widget"
+msgstr "ウィジェット"
+
+#: inc/customizer/control-sortable.php:96
+msgctxt "post_sortable"
+msgid "Page Link"
+msgstr "ページリンク"
+
+#: inc/customizer/control-sortable.php:99
+msgctxt "post_sortable"
+msgid "CTA"
+msgstr "CTA"
+
+#: inc/customizer/control-sortable.php:102
+msgctxt "post_sortable"
+msgid "Share"
+msgstr "シェア"
+
+#: inc/customizer/control-sortable.php:105
+msgctxt "post_sortable"
+msgid "About the author"
+msgstr "この記事を書いた人"
+
+#: inc/customizer/control-sortable.php:108
+msgctxt "post_sortable"
+msgid "Related"
+msgstr "関連記事"
+
+#: inc/customizer/control-sortable.php:111
+msgctxt "post_sortable"
+msgid "Category"
+msgstr "カテゴリー"
+
+#: inc/customizer/control-sortable.php:114
+msgctxt "post_sortable"
+msgid "Tag"
+msgstr "タグ"
+
+#: inc/customizer/control-sortable.php:117
+msgctxt "post_sortable"
+msgid "Adjacent"
+msgstr "隣接する記事"
+
+#: inc/customizer/control-sortable.php:120
+msgctxt "post_sortable"
+msgid "Comment"
+msgstr "コメント"
+
+#: inc/customizer/control-sortable.php:123
+msgctxt "post_sortable"
+msgid "Mystery"
+msgstr "謎"
+
+#: inc/customizer/customizer.php:24
+msgid "Icon Image"
+msgstr "アイコンイメージ"
+
+#: inc/customizer/customizer.php:32
+msgid "Posts"
+msgstr "投稿"
+
+#: inc/customizer/customizer.php:39
+msgid "Pages"
+msgstr "固定ページ"
+
+#: inc/customizer/customizer.php:45 inc/widgets.php:11
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: inc/customizer/customizer.php:51 inc/widgets.php:49
+msgid "Header"
+msgstr "ヘッダー"
+
+#: inc/customizer/customizer.php:57
+msgid "Index"
+msgstr "インデックス"
+
+#: inc/customizer/customizer.php:63 inc/tgm/notice.php:24 inc/tgm/tgm.php:63
+msgid "YAHMAN Add-ons"
+msgstr "YAHMAN Add-ons"
+
+#: inc/customizer/setting-header.php:12
+msgid "Tagline"
+msgstr "キャッチフレーズ"
+
+#: inc/customizer/setting-header.php:21 inc/customizer/setting-sidebar.php:12
+msgid "Display"
+msgstr "表示"
+
+#: inc/customizer/setting-index.php:14 inc/customizer/setting-index.php:24
+msgid "Layout"
+msgstr "レイアウト"
+
+#: inc/customizer/setting-index.php:25
+msgid "Choose a layout for the blog posts."
+msgstr "記事の表示方法を選択してください。"
+
+#: inc/customizer/setting-index.php:29
+msgid "List layout"
+msgstr "リストレイアウト"
+
+#: inc/customizer/setting-index.php:33
+msgid "Grid layout"
+msgstr "グリッドレイアウト"
+
+#: inc/customizer/setting-index.php:37
+msgid "List layout before grid layout"
+msgstr "グリッドレイアウト前にリストレイアウト"
+
+#: inc/customizer/setting-index.php:41
+msgid "List layout and grid layout are alternately repeated"
+msgstr "リストレイアウトとグリッドレイアウトは交互に繰り返されます"
+
+#: inc/customizer/setting-index.php:55 inc/customizer/setting-index.php:68
+#: inc/customizer/setting-pages.php:35 inc/customizer/setting-pages.php:47
+#: inc/customizer/setting-posts.php:35 inc/customizer/setting-posts.php:47
+msgid "Thumbnail"
+msgstr "サムネイル"
+
+#: inc/customizer/setting-index.php:64 inc/customizer/setting-pages.php:43
+#: inc/customizer/setting-posts.php:43
+msgid "Original size of thumbnail"
+msgstr "サムネイルのサイズ"
+
+#: inc/customizer/setting-index.php:69 inc/customizer/setting-pages.php:48
+#: inc/customizer/setting-posts.php:48
+msgid "Medium"
+msgstr "中サイズ"
+
+#: inc/customizer/setting-index.php:70 inc/customizer/setting-pages.php:49
+#: inc/customizer/setting-posts.php:49
+msgid "Large"
+msgstr "大サイズ"
+
+#: inc/customizer/setting-index.php:71 inc/customizer/setting-pages.php:50
+#: inc/customizer/setting-posts.php:50
+msgid "Full"
+msgstr "フルサイズ"
+
+#: inc/customizer/setting-index.php:77
+msgid "Widget"
+msgstr "ウィジェット"
+
+#: inc/customizer/setting-index.php:86
+msgid "How to Insert Index list widget area"
+msgstr "インデックスリスト内へのウィジェットエリアの挿入方法"
+
+#: inc/customizer/setting-index.php:90
+msgid "Just after post"
+msgstr "記事の後"
+
+#: inc/customizer/setting-index.php:91
+msgid "Every post"
+msgstr "記事ごと"
+
+#: inc/customizer/setting-index.php:100
+msgid "Count of post for above configuring"
+msgstr "上記設定の記事数"
+
+#: inc/customizer/setting-index.php:112 inc/customizer/setting-pages.php:77
+#: inc/customizer/setting-posts.php:77
+msgid "Author"
+msgstr "投稿者"
+
+#: inc/customizer/setting-index.php:121 inc/customizer/setting-pages.php:86
+#: inc/customizer/setting-posts.php:86
+msgid "Avatar"
+msgstr "アバター"
+
+#: inc/customizer/setting-index.php:131 inc/customizer/setting-pages.php:96
+#: inc/customizer/setting-posts.php:96
+msgid "Name"
+msgstr "名前"
+
+#: inc/customizer/setting-index.php:138 inc/customizer/setting-pages.php:55
+#: inc/customizer/setting-posts.php:56
+msgid "Date"
+msgstr "日付"
+
+#: inc/customizer/setting-index.php:147
+msgid "Display method"
+msgstr "表示方法"
+
+#: inc/customizer/setting-index.php:151
+msgid "Human readable time difference"
+msgstr "人間が読める時間差"
+
+#: inc/customizer/setting-index.php:152
+msgid "Normal display"
+msgstr "通常表示"
+
+#: inc/customizer/setting-index.php:153
+msgid "None"
+msgstr "なし"
+
+#: inc/customizer/setting-pages.php:12 inc/customizer/setting-pages.php:26
+#: inc/customizer/setting-posts.php:12 inc/customizer/setting-posts.php:26
+msgid "Reorder Sections & Show / Hide"
+msgstr "セクションの並び替え & 表示 / 非表示"
+
+#: inc/customizer/setting-pages.php:27 inc/customizer/setting-posts.php:27
+msgid "drag the columns to rearrange their order."
+msgstr "カラムをドラッグして並び替えます"
+
+#: inc/customizer/setting-pages.php:27 inc/customizer/setting-posts.php:27
+msgid "Switch to show or hide when eye icon click or tap."
+msgstr ""
+"目のアイコンをクリックまたはタップしたときに表示または非表示に切り替えます。"
+
+#: inc/customizer/setting-pages.php:64 inc/customizer/setting-posts.php:65
+msgid "Date display"
+msgstr "日付の表示"
+
+#: inc/customizer/setting-pages.php:68 inc/customizer/setting-posts.php:69
+#: inc/customizer/setting-sidebar.php:25
+msgid "Hidden"
+msgstr "非表示"
+
+#: inc/customizer/setting-pages.php:69 inc/customizer/setting-posts.php:70
+msgid "Publish"
+msgstr "公開日:"
+
+#: inc/customizer/setting-pages.php:70 inc/customizer/setting-posts.php:71
+#: inc/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "更新日"
+
+#: inc/customizer/setting-pages.php:71 inc/customizer/setting-posts.php:72
+msgid "Publish & Update"
+msgstr "公開日と更新日"
+
+#: inc/customizer/setting-pages.php:102 inc/customizer/setting-posts.php:138
+msgid "Fit content"
+msgstr "コンテンツに合わせる"
+
+#: inc/customizer/setting-pages.php:113 inc/widgets.php:119
+msgid "Page widget"
+msgstr "固定ページウィジェット"
+
+#: inc/customizer/setting-posts.php:111
+msgid "Comment Text Field to Bottom"
+msgstr "コメント欄を下にする"
+
+#: inc/customizer/setting-posts.php:121
+msgid "Website Field Disappear"
+msgstr "ウェブサイトの欄を非表示にする"
+
+#: inc/customizer/setting-posts.php:131
+msgid "Mail Field Disappear"
+msgstr "Eメールの欄を非表示にする"
+
+#: inc/customizer/setting-posts.php:149 inc/widgets.php:104
+msgid "Post widget"
+msgstr "投稿ウィジェット"
+
+#: inc/customizer/setting-sidebar.php:21
+msgid "Sidebar display"
+msgstr "サイドバーの表示"
+
+#: inc/customizer/setting-sidebar.php:26
+msgid "All"
+msgstr "すべて"
+
+#: inc/customizer/setting-sidebar.php:27
+msgid "Only index"
+msgstr "インデックスのみ"
+
+#: inc/customizer/setting-sidebar.php:37
+msgid "Access from mobile not display only when single page"
+msgstr "モバイル端末からのアクセス際、シングルページでは非表示"
+
+#: inc/customizer/setting-yahman_addon.php:14
+msgid "Pageview"
+msgstr "ページビュー"
+
+#: inc/customizer/setting-yahman_addon.php:34
+msgid "Display page view at the each post."
+msgstr "各ページのアクセス数を表示する。"
+
+#: inc/customizer/setting-yahman_addon.php:39
+msgid "Page View"
+msgstr "全ページビュー数"
+
+#: inc/customizer/setting-yahman_addon.php:40
+msgid "Yearly Page View"
+msgstr "年間ページビュー数"
+
+#: inc/customizer/setting-yahman_addon.php:41
+msgid "Monthly Page View"
+msgstr "月間ページビュー数"
+
+#: inc/customizer/setting-yahman_addon.php:42
+msgid "Weekly Page View"
+msgstr "週間ページビュー数"
+
+#: inc/customizer/setting-yahman_addon.php:43
+msgid "Daily Page View"
+msgstr "日間ページビュー数"
+
+#: inc/customizer/setting-yahman_addon.php:52
+msgid "Enable"
+msgstr "有効"
+
+#: inc/customizer/setting-yahman_addon.php:53
+msgid "Display page view to logout user."
+msgstr "ログアウトしているユーザーにも表示する。"
+
+#: inc/template-tags.php:216
+msgid "a year ago"
+msgstr "去年"
+
+#: inc/template-tags.php:218
+#, php-format
+msgid "%s years ago"
+msgstr "%s年前"
+
+#: inc/template-tags.php:219
+msgid "a month ago"
+msgstr "先月"
+
+#: inc/template-tags.php:221
+#, php-format
+msgid "%s months ago"
+msgstr "%sヶ月前"
+
+#: inc/template-tags.php:223
+#, php-format
+msgid "%s weeks ago"
+msgstr "%s週間前"
+
+#: inc/template-tags.php:224
+msgid "a week ago"
+msgstr "先週"
+
+#: inc/template-tags.php:226
+#, php-format
+msgid "yesterday at %s"
+msgstr "昨日の%s"
+
+#: inc/template-tags.php:228
+#, php-format
+msgid "%s days ago"
+msgstr "%s日前"
+
+#: inc/template-tags.php:229
+msgid "an hour ago"
+msgstr "1時間前"
+
+#: inc/template-tags.php:231
+#, php-format
+msgid "%s hours ago"
+msgstr "%s時間前"
+
+#: inc/template-tags.php:232
+msgid "a minute ago"
+msgstr "1分前"
+
+#: inc/template-tags.php:234
+#, php-format
+msgid "%s minutes ago"
+msgstr "%s分前"
+
+#: inc/template-tags.php:235
+msgid "just now"
+msgstr "たった今"
+
+#: inc/template-tags.php:303 inc/template-tags.php:336
+msgid "Edit"
+msgstr "編集"
+
+#: inc/template-tags.php:348
+msgid "Reply"
+msgstr "返信"
+
+#: inc/template-tags.php:355
+msgid "*Your comment is awaiting moderation.*"
+msgstr "*あなたのコメントは現在承認待ちです。*"
+
+#: inc/template-tags.php:411 inc/template-tags.php:440
+msgid "Posts navigation"
+msgstr "投稿ナビゲーション"
+
+#: inc/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "必要なプラグインをインストール"
+
+#: inc/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "プラグインをインストールする"
+
+#: inc/tgm/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "インストールしているプラグイン: %s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "プラグインの更新: %s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "プラグイン API で問題が発生しました。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "このテーマには次のプラグインが必要です: %1$s。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "このテーマは、次のプラグインを推奨しています: %1$s。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"このテーマとの最大の互換性を確保するには、次のプラグインを最新バージョンに更"
+"新する必要があります: %1$s。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "次のプラグインで利用可能な更新があります: %1$s。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "次の必要なプラグインは現在非アクティブです: %1$s.。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "次の推奨プラグインは現在非アクティブです: %1$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "プラグインのインストールを開始"
+
+#: inc/tgm/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "プラグインのアップデートを開始"
+
+#: inc/tgm/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "プラグインの有効化を開始"
+
+#: inc/tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "必要なプラグインインストーラに戻る"
+
+#: inc/tgm/class-tgm-plugin-activation.php:386
+#: inc/tgm/class-tgm-plugin-activation.php:827
+#: inc/tgm/class-tgm-plugin-activation.php:2533
+#: inc/tgm/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "ダッシュボードに戻る"
+
+#: inc/tgm/class-tgm-plugin-activation.php:387
+#: inc/tgm/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "プラグインが正常にアクティブ化されました。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:388
+#: inc/tgm/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "次のプラグインが正常にアクティブ化されました:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "操作を実行しませんでした。プラグイン %1$s はすでに有効です。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"プラグインが有効化されていません。 このテーマには %s の上位バージョンが必要で"
+"す。 プラグインを更新してください。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "すべてのプラグインを正常にインストール、有効化しました。 %1$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "この通知を非表示にする"
+
+#: inc/tgm/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"インストール、更新または有効化する、1つ以上の必須または推奨プラグインがありま"
+"す。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "ヘルプが必要な場合はこのサイトの管理者にお問い合わせください。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"使用中のテーマとの互換性を保つため、このプラグインを更新する必要があります。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "更新が必要です"
+
+#: inc/tgm/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"リモートプラグインパッケージには、指定されたスラッグのフォルダがないため、名"
+"前の変更ができませんでした。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:934
+#: inc/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"プラグイン開発者に連絡し、WordPress のガイドラインに従ってプラグインをパッ"
+"ケージ化するように依頼してください。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"リモートプラグインパッケージは複数のファイルで構成されていますが、ファイルは1"
+"つのフォルダー内にパッケージされていません。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:1121
+#: inc/tgm/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "と"
+
+#: inc/tgm/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "必須"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "おすすめ"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "WordPress 公式ディレクトリ"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "外部ソース"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "プリパッケージ済み"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "インストールされてません"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "インストールされているがアクティブ化されていない"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "有効"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "必要な更新が利用できない"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "更新が必要です"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "更新が推奨されています"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "全て <span class=\"count\">(%s)</span>"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "インストールする<span class=\"count\">(%s)</span>"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "利用可能な更新<span class = \"count\">(%s)</ span>"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "有効にする <span class=\"count\">(%s)</span>"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "不明"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "インストールバージョン:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "最低必須バージョン:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "利用可能なバージョン:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "インストール、更新、アクティブ化するプラグインはありません。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "プラグイン"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "ソース"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "種類"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "バージョン"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "ステータス"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr "%2$sをインストール"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr "%2$s を更新"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr "%2$s を有効化"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "プラグイン作者からの更新メッセージ:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "インストール"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "有効化"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"インストールするプラグインが選択されていません。何も実行しませんでした。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "更新するプラグインが選択されていません。何も実行しませんでした。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "現時点でインストールできるプラグインはありません。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "現在更新できるプラグインはありません。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "有効化するプラグインが選択されていません。何も実行しませんでした。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "現時点で有効化できるプラグインはありません。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "プラグインのアクティベーションに失敗しました。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグインの更新: %1$s (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "%1$s のインストール中にエラーが発生しました: <strong>%2$s</strong>"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "%1$s のインストールに失敗しました。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"インストールと有効化プロセスを開始しています。サーバーによっては少し時間がか"
+"かるかもしれません。しばらくお待ちください。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s を正常にインストールし、有効化しました。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "詳細を表示"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "詳細を非表示"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "すべてのインストールと有効化が完了しました。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグインをインストール、有効化しています %1$s (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"更新プロセスを開始しています。サーバーによっては少し時間がかかるかもしれませ"
+"ん。しばらくお待ちください"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s を正常にインストールしました。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "すべてのインストールが完了しました。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグインをインストールしています %1$s (%2$d/%3$d)"
+
+#: inc/tgm/notice.php:32
+msgid "Welcome! Thank you for choosing the theme Neatly."
+msgstr "ようこそ！テーマNeatlyをお選びいただきありがとうございます。"
+
+#: inc/tgm/notice.php:34
+#, php-format
+msgid ""
+"If you want to take full advantage of the options this theme has to offer, "
+"please install and activate %s."
+msgstr ""
+"このテーマが提供するオプションを十分に活用する場合、%s を是非インストールして"
+"ください。"
+
+#: inc/tgm/notice.php:37
+msgid "This plugin optimize for Neatly."
+msgstr "このプラグインはNeatlyに最適化しています。"
+
+#: inc/tgm/notice.php:40
+msgid ""
+"Pageviews,Google Adsense,Analytics,Social,Profile,Table of contents,Related "
+"Posts,notice,sitemap,SEO,JSON-LD structured data,Open Graph protocol(OGP),"
+"Blog card,Twitter timeline,Facebook timeline,Accelerated Mobile Pages(AMP), "
+"etc."
+msgstr ""
+"ページビュー,Google アドセンス,Google アナリティクス,SNS,プロフィール,目次,関"
+"連記事,通知ボックス,サイトマップ,SEO,JSON-LDの構造化データ,OGP,Blog カード,"
+"Twitter タイムライン,Facebook タイムライン,Accelerated Mobile Pages(AMP) 、な"
+"ど"
+
+#: inc/tgm/notice.php:43
+msgid "Of course, it's free."
+msgstr "もちろん無料です。"
+
+#: inc/tgm/plugin_button.php:23
+msgid "Already activated"
+msgstr "有効化済み"
+
+#: inc/tgm/plugin_button.php:33
+#, php-format
+msgid "Install %s"
+msgstr "%sをインストール"
+
+#: inc/tgm/plugin_button.php:40
+#, php-format
+msgid "Activate %s"
+msgstr "%sを有効化"
+
+#: inc/tgm/plugin_button.php:62
+msgid "Activating&hellip;"
+msgstr "有効にしています&hellip;"
+
+#: inc/tgm/plugin_button.php:62
+msgid "Activated"
+msgstr "有効化済み"
+
+#: inc/tgm/tgm.php:68
+msgid "Pages with category and tag"
+msgstr "Pages with category and tag"
+
+#: inc/tgm/tgm.php:73
+msgid "Word Balloon"
+msgstr "Word Balloon (吹き出し)"
+
+#: inc/widgets.php:13 inc/widgets.php:23 inc/widgets.php:32 inc/widgets.php:41
+#: inc/widgets.php:51 inc/widgets.php:62 inc/widgets.php:72 inc/widgets.php:82
+#: inc/widgets.php:94 inc/widgets.php:106 inc/widgets.php:121
+#, php-format
+msgid "Widgets in this area will be displayed in %s."
+msgstr "このエリアのウィジェットは%sに表示されます。"
+
+#: inc/widgets.php:13
+msgid "right sidebar"
+msgstr "右サイドバー"
+
+#: inc/widgets.php:21
+msgid "Left of footer"
+msgstr "フッターの左側"
+
+#: inc/widgets.php:23
+msgid "the first column in the footer"
+msgstr "フッターの1列目"
+
+#: inc/widgets.php:30
+msgid "Center of footer"
+msgstr "フッターの中央"
+
+#: inc/widgets.php:32
+msgid "the second column in the footer"
+msgstr "フッターの2列目"
+
+#: inc/widgets.php:39
+msgid "Right of footer"
+msgstr "フッターの右側"
+
+#: inc/widgets.php:41
+msgid "the third column in the footer"
+msgstr "フッターの3列目"
+
+#: inc/widgets.php:51 inc/widgets.php:72
+msgid "header"
+msgstr "ヘッダー"
+
+#: inc/widgets.php:60
+msgid "Fixed Sidebar for Laptop"
+msgstr "PC専用サイドバー固定"
+
+#: inc/widgets.php:62
+msgid "right sidebar and fix in bottom"
+msgstr "固定して右サイドバーの下部"
+
+#: inc/widgets.php:70 searchform.php:14
+msgid "Search"
+msgstr "検索"
+
+#: inc/widgets.php:80 templates/homepage.php:9
+msgid "Custom Homepage"
+msgstr "カスタムホームページ"
+
+#: inc/widgets.php:82
+msgid "Homepage"
+msgstr "ホームページ"
+
+#: inc/widgets.php:92
+msgid "Index List"
+msgstr "インデックスリスト"
+
+#: inc/widgets.php:94
+msgid "index list"
+msgstr "インデックスリスト"
+
+#: inc/widgets.php:94
+msgid "change the number of insert widget area."
+msgstr "挿入順の指定はこちら。"
+
+#: inc/widgets.php:106
+msgid "contents of the post"
+msgstr "投稿記事"
+
+#: inc/widgets.php:121
+msgid "contents of the page"
+msgstr "固定ページ"
+
+#: search.php:7
+#, php-format
+msgid "Search Results for: %s"
+msgstr "検索結果:%s"
+
+#: template-parts/index/content-none.php:14
+msgid "Ready to publish your first post?"
+msgstr "最初の投稿をする準備ができましたか ?"
+
+#: template-parts/index/content-none.php:16
+msgid "Get started here."
+msgstr "ここからスタートしてください。"
+
+#: template-parts/index/content-none.php:20
+msgid "Sorry, but nothing matched your search terms."
+msgstr "ご指定の検索条件に一致する投稿がありませんでした。"
+
+#: template-parts/index/content-none.php:21
+msgid "Please try again with some different keywords."
+msgstr "他のキーワードでもう一度検索してみてください。"
+
+#: template-parts/index/content-none.php:26
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr "お探しのコンテンツを見つけられませんでした。"
+
+#: template-parts/index/content-none.php:27
+msgid "Perhaps searching can help."
+msgstr "検索をお試しください。"
+
+#: template-parts/single/adjacent.php:14
+msgid "Prev"
+msgstr "前へ"
+
+#: template-parts/single/adjacent.php:16
+msgid "Next"
+msgstr "次へ"
+
+#: template-parts/single/link_page.php:35
+msgid "Next Page"
+msgstr "次のページ"
+
+#: template-parts/single/link_page.php:55
+msgid "Pages:"
+msgstr "ページ:"
+
+#: templates/title_content.php:9
+msgid "Title and content only"
+msgstr "タイトルと本文のみ"
+
+#: templates/title_content_no_sidebar.php:9
+msgid "Title and content only without sidebar"
+msgstr "サイドバー無しのタイトルと本文のみ"
+
+#: templates/with_sidebar.php:9
+msgid "With sidebar"
+msgstr "サイドバー有り"
+
+#: templates/without_sidebar.php:9
+msgid "Without sidebar"
+msgstr "サイドバー無し"
+
+#. Theme Name of the plugin/theme
+msgid "Neatly"
+msgstr "Neatly"
+
+#. Theme URI of the plugin/theme
+msgid "https://back2nature.jp/en/themes/neatly"
+msgstr "https://back2nature.jp/en/themes/neatly"
+
+#. Description of the plugin/theme
+msgid ""
+"Neatly is simple and clean , and readable , and full responsive WordPress "
+"theme.Visitors arrive by any devices.I designed it using a mobile-first "
+"approach.It is thus possible to improve usability of the smartphone.And of "
+"course, other devices is responsive.Translation ready and currently "
+"translated in Japanese(日本語).Dark mode compatible.If you use plugin of "
+"YAHMAN Add-ons, you can Page views,Google Adsense,Analytics,Social,Profile,"
+"Table of contents,Related Posts,notice,sitemap,SEO,JSON-LD structured data,"
+"Open Graph protocol(OGP),Blog card,Twitter timeline,Facebook timeline,"
+"Accelerated Mobile Pages(AMP),Carousel Slider.Let's try it."
+msgstr ""
+"Neatly はシンプルでクリーンそして読みやすいレスポンシブ WordPress のブログ"
+"テーマです。訪問者は、様々なデバイスを使っています。私はモバイルファーストを"
+"第一にデザインしました。そのためスマートフォンのユーザビリティを向上させてい"
+"ます。もちろん、他のデバイスも反応します。現在日本語の翻訳に対応しています。"
+"ダークモード対応。プラグインの YAHMAN Add-ons を使用すると、ページビュー、"
+"Google アドセンス、アナリティクス、SNS のリンク、プロフィール、目次、関連記"
+"事、通知ボックス、サイトマップ、SEO、JSON-LDを使用した構造化データ、OGP、ブロ"
+"グカード、Twitter タイムライン、Facebook タイムライン、Accelerated Mobile "
+"Pages(AMP) 、カルーセルスライダーを使用することができます。是非試してみてくだ"
+"さい。"
+
+#. Author of the plugin/theme
+msgid "YAHMAN"
+msgstr "やーまん"
+
+#. Author URI of the plugin/theme
+msgid "https://back2nature.jp/"
+msgstr "https://back2nature.jp/"
+
+#~ msgid ""
+#~ "Neatly is simple and clean , and readable , and full responsive WordPress "
+#~ "theme.Visitors arrive by any devices.I designed it using a mobile-first "
+#~ "approach.It is thus possible to improve usability of the smartphone.And "
+#~ "of course, other devices is responsive.Translation ready and currently "
+#~ "translated in Japanese(日本語).Dark mode compatible.If you use plugin of "
+#~ "YAHMAN Add-ons, you can Pageviews,Google Adsense,Analytics,Social,Profile,"
+#~ "Table of contents,Related Posts,notice,sitemap,SEO,JSON-LD structured "
+#~ "data,OGP,Blog card,Twitter timeline,Facebook timeline,Accelerated Mobile "
+#~ "Pages(AMP).Let's try it."
+#~ msgstr ""
+#~ "Neatly はシンプルでクリーンそして読みやすいレスポンシブ WordPress のブログ"
+#~ "テーマです。訪問者は、様々なデバイスを使っています。私はモバイルファースト"
+#~ "を第一にデザインしました。そのためスマートフォンのユーザビリティを向上させ"
+#~ "ています。もちろん、他のデバイスも反応します。現在日本語の翻訳に対応してい"
+#~ "ます。ダークモード対応。カスタムホームページは投稿のスライドショーを表示す"
+#~ "ることができます。プラグインの YAHMAN Add-ons を使用すると、ページビュー、"
+#~ "Google アドセンス、アナリティクス、SNS のリンク、プロフィール、目次、関連"
+#~ "記事、通知ボックス、サイトマップ、SEO、JSON-LDを使用した構造化データ、"
+#~ "OGP、ブログカード、Twitter タイムライン、Facebook タイムライン、"
+#~ "Accelerated Mobile Pages(AMP) を使用することができます。是非試してみてくだ"
+#~ "さい。"
+
+#~ msgid "Reorder Sections"
+#~ msgstr "セクションの並び替え"
+
+#~ msgid "Welcome! Thank you for choosing the Neatly Theme."
+#~ msgstr "ようこそ！Neatlyをお選びいただきありがとうございます。"
+
+#~ msgid "https://back2nature.jp/themes/neatly"
+#~ msgstr "https://back2nature.jp/themes/neatly"
+
+#~ msgid "Add widgets here to appear in your sidebar."
+#~ msgstr "ここにウィジェットを追加してサイドバーに表示します。"
+
+#~ msgid "Footer Left"
+#~ msgstr "フッター (左側)"
+
+#~ msgid "Add widgets here to appear in bottom footer"
+#~ msgstr "ここにウィジェットを追加してフッターに表示します。"
+
+#~ msgid "(left side)"
+#~ msgstr "(左側)"
+
+#~ msgid "Footer Center"
+#~ msgstr "フッター(中央)"
+
+#~ msgid "(center)"
+#~ msgstr "(中央)"
+
+#~ msgid "Footer Right"
+#~ msgstr "フッター (右側)"
+
+#~ msgid "(right side)"
+#~ msgstr "(右側)"
+
+#~ msgid "Add widgets here to header."
+#~ msgstr "ここにウィジェットを追加してヘッダーに表示します。"
+
+#~ msgid "Add widgets here to index list insert."
+#~ msgstr "ここにウィジェットを追加してインデックスリストの中に表示します。"
+
+#~ msgid "Add widgets in the contents of the post"
+#~ msgstr "ここにウィジェットを追加して投稿記事の中に表示します。"
+
+#~ msgid "Add widgets in the contents of the page"
+#~ msgstr "ここにウィジェットを追加して固定ページの中に表示します。"
+
+#~ msgid "Add widgets here to appear and fix in bottom of your sidebar."
+#~ msgstr "ここにウィジェットを追加してサイドバー下部に固定表示します。"
+
+#~ msgid "Add widgets here to appear on Homepage"
+#~ msgstr "ここにウィジェットを追加してホームページに表示します"
+
+#~ msgctxt "widget"
+#~ msgid "the post"
+#~ msgstr "投稿"
+
+#~ msgctxt "widget"
+#~ msgid "the page"
+#~ msgstr "固定ページ"
+
+#~ msgctxt "widget"
+#~ msgid "the first"
+#~ msgstr "1番目"
+
+#~ msgctxt "widget"
+#~ msgid "the second"
+#~ msgstr "2番目"
+
+#~ msgctxt "widget"
+#~ msgid "the third"
+#~ msgstr "3番目"
+
+#~ msgid "Before %1$s H2 of %2$s"
+#~ msgstr "%2$s内%1$sの H2前"
+
+#~ msgid "Add widgets before %1$s H2 in the contents of %2$s"
+#~ msgstr "%2$s内%1$sのH2見出し手前にウィジェットを追加します。"
+
+#~ msgid ""
+#~ "Neatly is simple and clean , and readable , and full responsive WordPress "
+#~ "theme.Visitors arrive by any devices.I designed it using a mobile-first "
+#~ "approach.It is thus possible to improve usability of the smartphone.And "
+#~ "of course, other devices is responsive.Translation ready and currently "
+#~ "translated in Japanese(日本語).If you use plugin of YAHMAN Add-ons, you "
+#~ "can Pageviews,Google Adsense,Analytics,Social,Profile,Table of contents,"
+#~ "Related Posts,notice,sitemap,SEO,JSON-LD structured data,OGP,Blog card,"
+#~ "Twitter timeline,Facebook timeline,Accelerated Mobile Pages(AMP).Let's "
+#~ "try it."
+#~ msgstr ""
+#~ "Neatly はシンプルでクリーンそして読みやすいレスポンシブ WordPress のブログ"
+#~ "テーマです。訪問者は、様々なデバイスを使っています。私はモバイルファースト"
+#~ "を第一にデザインしました。そのためスマートフォンのユーザビリティを向上させ"
+#~ "ています。もちろん、他のデバイスも反応します。現在日本語の翻訳に対応してい"
+#~ "ます。カスタムホームページは投稿のスライドショーを表示することができます。"
+#~ "プラグインの YAHMAN Add-ons を使用すると、ページビュー、Google アドセン"
+#~ "ス、アナリティクス、SNS のリンク、プロフィール、目次、関連記事、通知ボック"
+#~ "ス、サイトマップ、SEO、JSON-LDを使用した構造化データ、OGP、ブログカード、"
+#~ "Twitter タイムライン、Facebook タイムライン、Accelerated Mobile "
+#~ "Pages(AMP) を使用することができます。是非試してみてください。"
+
+#~ msgid ""
+#~ "Google Adsense,Analytics,Pageviews,Social,Profile,Table of contents,"
+#~ "notice,sitemap,OGP,Blog card,Twitter timeline,Facebook timeline,"
+#~ "Accelerated Mobile Pages(AMP), etc."
+#~ msgstr ""
+#~ "Google アドセンス、アナリティクス、ページビュー、 SNS 、プロフィール、目"
+#~ "次、通知ボックス、サイトマップ、 OGP 、ブログカード、 Twitter タイムライ"
+#~ "ン、 Facebook タイムライン、 AMP 、等"
+
+#~ msgid "No title"
+#~ msgstr "タイトルがありません"
+
+#~ msgctxt "post_sortable"
+#~ msgid "Widget 2"
+#~ msgstr "ウィジェット 2"
+
+#~ msgid "Disappear"
+#~ msgstr "ウェブサイトの欄を非表示にする"
+
+#~ msgid "Website Field"
+#~ msgstr "ウェブサイトの欄を非表示にする"
+
+#~ msgid "Before %1\\$s H2 of %2\\$s"
+#~ msgstr "%2\\$s内%1\\$sの H2前"
+
+#~ msgid "Add widgets before %1\\$s H2 in the contents of %2\\$s"
+#~ msgstr "%2\\$s内%1\\$sのH2見出し手前にウィジェットを追加します。"
+
+#~ msgid "Add widgets before %s H2 in the contents of %s"
+#~ msgstr "%s内%sのH2見出し手前にウィジェットを追加します。"
+
+#~ msgid "Before the first H2 of the post"
+#~ msgstr "投稿内1番目の H2前に"
+
+#~ msgid "Add widgets before the first h2 in the contents of the post"
+#~ msgstr "投稿内1番目の H2見出し手前にウィジェットを追加します。"
+
+#~ msgid "Before the second H2 of the post"
+#~ msgstr "投稿内2番目の H2前に"
+
+#~ msgid "Add widgets before the second h2 in the contents of the post"
+#~ msgstr "投稿内2番目の H2見出し手前にウィジェットを追加します。"
+
+#~ msgid "Before the third H2 of the post"
+#~ msgstr "投稿内3番目の H2前に"
+
+#~ msgid "Add widgets before the third h2 in the contents of the post"
+#~ msgstr "投稿内3番目の H2見出し手前にウィジェットを追加します。"
+
+#~ msgid "Before the first H2 of the page"
+#~ msgstr "固定ページ内1番目の H2前に"
+
+#~ msgid "Add widgets before the first h2 in the contents of the page"
+#~ msgstr "固定ページ内1番目の H2見出し手前にウィジェットを追加します。"
+
+#~ msgid "Before the second H2 of the page"
+#~ msgstr "固定ページ内2番目の H2前に"
+
+#~ msgid "Add widgets before the second h2 in the contents of the page"
+#~ msgstr "固定ページ内2番目の H2見出し手前にウィジェットを追加します。"
+
+#~ msgid "Before the third H2 of the page"
+#~ msgstr "固定ページ内3番目の H2前に"
+
+#~ msgid "Add widgets before the third h2 in the contents of the page"
+#~ msgstr "固定ページ内3番目の H2見出し手前にウィジェットを追加します。"
+
+#~ msgid ""
+#~ "Sorry, but nothing matched your search terms. Please try again with some "
+#~ "different keywords."
+#~ msgstr ""
+#~ "ご指定の検索条件に一致する投稿がありませんでした。他のキーワードでもう一度"
+#~ "検索してみてください。"
+
+#~ msgid ""
+#~ "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+#~ "searching can help."
+#~ msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"

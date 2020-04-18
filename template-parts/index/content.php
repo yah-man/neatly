@@ -36,7 +36,7 @@ while(have_posts()): the_post();
 
 	}else{
 
-		$post_content = mb_strimwidth( wp_strip_all_tags(strip_shortcodes(get_the_content()), true), 0 , 300, '...' );
+		$post_content = mb_strimwidth( wp_strip_all_tags( preg_replace('{\[[^\]]+\]}s', '',  get_the_content() ), true), 0 , 300, '...' );
 
 	}
 

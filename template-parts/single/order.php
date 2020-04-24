@@ -26,7 +26,7 @@ function neatly_post_order( $type , $single_sortable , $post) {
   }
 
   $yahman_addons_option = '';
-  if(function_exists('yahman_addons_textdomain_load')){
+  if(function_exists('yahman_addons_plugins_loaded')){
     $yahman_addons_option = get_option('yahman_addons') ;
   }
 

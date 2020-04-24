@@ -8,7 +8,7 @@ defined( 'ABSPATH' ) || exit;
 
 if ( ! function_exists( 'neatly_sort_order_base_post' ) ) :
   function neatly_sort_order_base_post() {
-    if(function_exists('yahman_addons_textdomain_load')){
+    if(function_exists('yahman_addons_plugins_loaded')){
       return array(
        'thumbnail','title','author','pv','content','page_link','widget_1','cta','share','author_profile','related','category','tag','adjacent','comment','widget_2','widget_3','widget_4','widget_5','breadcrumbs',
      );
@@ -24,7 +24,7 @@ endif;
 if ( ! function_exists( 'neatly_sort_order_base_page' ) ) :
   function neatly_sort_order_base_page() {
 
-    if(function_exists('yahman_addons_textdomain_load')){
+    if(function_exists('yahman_addons_plugins_loaded')){
       return array(
        'thumbnail','title','author','pv','content','page_link','widget_1','cta','share','author_profile','related','category','tag','comment','widget_2','widget_3','widget_4','widget_5','breadcrumbs',
      );

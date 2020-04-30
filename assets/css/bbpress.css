@@ -1,0 +1,36 @@
+.forum a:not([class]) {
+  display: initial;
+  position: initial; }
+  .forum a:not([class]):before, .forum a:not([class]):after {
+    content: "";
+    position: initial;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    background: transparent; }
+  .forum a:not([class]):after {
+    bottom: 0;
+    transform: initial;
+    transition: initial; }
+  .forum a:not([class]):hover:after {
+    transform: initial; }
+
+.topic ul li,
+.topic ol li {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0; }
+.topic img.avatar {
+  border-radius: 8px; }
+
+.bbp-reply-content p {
+  margin: 0 0 24px; }
+  .bbp-reply-content p:last-of-type {
+    margin: 0; }
+.bbp-reply-content ul {
+  padding: 4px 8px 4px 32px; }
+  .bbp-reply-content ul li {
+    padding: 0 0 8px; }
+
+/*# sourceMappingURL=bbpress.css.map */

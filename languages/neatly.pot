@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Neatly\n"
-"POT-Creation-Date: 2020-03-10 13:44+0900\n"
+"POT-Creation-Date: 2020-04-30 20:33+0900\n"
 "PO-Revision-Date: 2019-05-06 14:52+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -228,7 +228,7 @@ msgstr ""
 msgid "Pages"
 msgstr ""
 
-#: inc/customizer/customizer.php:45 inc/widgets.php:11
+#: inc/customizer/customizer.php:45 inc/third/bbpress.php:11 inc/widgets.php:11
 msgid "Sidebar"
 msgstr ""
 
@@ -1019,39 +1019,45 @@ msgstr ""
 msgid "Word Balloon"
 msgstr ""
 
+#: inc/third/bbpress.php:13 inc/third/bbpress.php:23 inc/third/bbpress.php:32
+#: inc/third/bbpress.php:41
+#, php-format
+msgid "Widgets in this area will be displayed in %s for bbPress."
+msgstr ""
+
+#: inc/third/bbpress.php:13 inc/widgets.php:13
+msgid "right sidebar"
+msgstr ""
+
+#: inc/third/bbpress.php:21 inc/widgets.php:21
+msgid "Left of footer"
+msgstr ""
+
+#: inc/third/bbpress.php:23 inc/widgets.php:23
+msgid "the first column in the footer"
+msgstr ""
+
+#: inc/third/bbpress.php:30 inc/widgets.php:30
+msgid "Center of footer"
+msgstr ""
+
+#: inc/third/bbpress.php:32 inc/widgets.php:32
+msgid "the second column in the footer"
+msgstr ""
+
+#: inc/third/bbpress.php:39 inc/widgets.php:39
+msgid "Right of footer"
+msgstr ""
+
+#: inc/third/bbpress.php:41 inc/widgets.php:41
+msgid "the third column in the footer"
+msgstr ""
+
 #: inc/widgets.php:13 inc/widgets.php:23 inc/widgets.php:32 inc/widgets.php:41
 #: inc/widgets.php:51 inc/widgets.php:62 inc/widgets.php:72 inc/widgets.php:82
 #: inc/widgets.php:94 inc/widgets.php:106 inc/widgets.php:121
 #, php-format
 msgid "Widgets in this area will be displayed in %s."
-msgstr ""
-
-#: inc/widgets.php:13
-msgid "right sidebar"
-msgstr ""
-
-#: inc/widgets.php:21
-msgid "Left of footer"
-msgstr ""
-
-#: inc/widgets.php:23
-msgid "the first column in the footer"
-msgstr ""
-
-#: inc/widgets.php:30
-msgid "Center of footer"
-msgstr ""
-
-#: inc/widgets.php:32
-msgid "the second column in the footer"
-msgstr ""
-
-#: inc/widgets.php:39
-msgid "Right of footer"
-msgstr ""
-
-#: inc/widgets.php:41
-msgid "the third column in the footer"
 msgstr ""
 
 #: inc/widgets.php:51 inc/widgets.php:72
@@ -1173,11 +1179,12 @@ msgid ""
 "theme.Visitors arrive by any devices.I designed it using a mobile-first "
 "approach.It is thus possible to improve usability of the smartphone.And of "
 "course, other devices is responsive.Translation ready and currently "
-"translated in Japanese(日本語).Dark mode compatible.If you use plugin of "
-"YAHMAN Add-ons, you can Page views,Google Adsense,Analytics,Social,Profile,"
-"Table of contents,Related Posts,notice,sitemap,SEO,JSON-LD structured data,"
-"Open Graph protocol(OGP),Blog card,Twitter timeline,Facebook timeline,"
-"Accelerated Mobile Pages(AMP),Carousel Slider.Let's try it."
+"translated in Japanese(日本語).Dark mode compatible.Ready to widget area for "
+"bbPress.If you use plugin of YAHMAN Add-ons, you can Page views,Google "
+"Adsense,Analytics,Social,Profile,Table of contents,Related Posts,notice,"
+"sitemap,SEO,JSON-LD structured data,Open Graph protocol(OGP),Blog card,"
+"Twitter timeline,Facebook timeline,Accelerated Mobile Pages(AMP),Carousel "
+"Slider.Let's try it."
 msgstr ""
 
 #. Author of the plugin/theme

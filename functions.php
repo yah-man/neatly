@@ -84,6 +84,12 @@ if ( ! function_exists( 'neatly_define_sidebar' ) ) :
 
 		}
 
+
+		/*bbPress*/
+		if ( function_exists( 'neatly_bbpress_sidebar' ) && neatly_is_bbpress() )
+			$sidebar = neatly_bbpress_sidebar();
+
+
 		if (is_page_template('templates/with_sidebar.php') )
 			$sidebar = true;
 
@@ -180,3 +186,9 @@ if ( is_admin() ){
 if( is_customize_preview() )
     // Setup the Theme Customizer settings and controls...
 	require_once NEATLY_THEME_DIR . 'inc/customizer/customizer.php';
+
+/* bbPress installed */
+if ( class_exists( 'bbPress' ) ) {
+	require_once NEATLY_THEME_DIR . 'inc/third/bbpress.php';
+}
+

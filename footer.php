@@ -1,16 +1,7 @@
 <?php defined( 'ABSPATH' ) || exit; ?>
 <footer id="site_f" itemscope itemtype="https://schema.org/WPFooter">
 	<?php
-	if ( !is_page_template( 'templates/title_content_no_sidebar.php' ) && (is_active_sidebar( 'footer-1' )  || is_active_sidebar( 'footer-2' )  || is_active_sidebar( 'footer-3' ) ) ) : ?>
-		<div class="f_widget_wrap">
-			<div class="f_widget_inner wrap_frame f_box jc_sb f_col100">
-				<div class="f_widget_L f_widget_block f_box f_col"><?php dynamic_sidebar('footer-1'); ?></div>
-				<div class="f_widget_C f_widget_block f_box f_col"><?php dynamic_sidebar('footer-2'); ?></div>
-				<div class="f_widget_R f_widget_block f_box f_col"><?php dynamic_sidebar('footer-3'); ?></div>
-			</div>
-		</div>
-		<?php
-	endif;
+	neatly_show_footer_widget();
 
 
 	if( has_nav_menu('secondary') ) neatly_footer_menu(); ?>

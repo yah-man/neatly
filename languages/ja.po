@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Neatly\n"
-"POT-Creation-Date: 2020-03-10 13:44+0900\n"
-"PO-Revision-Date: 2020-03-10 13:45+0900\n"
+"POT-Creation-Date: 2020-04-30 20:33+0900\n"
+"PO-Revision-Date: 2020-04-30 20:35+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -230,7 +230,7 @@ msgstr "投稿"
 msgid "Pages"
 msgstr "固定ページ"
 
-#: inc/customizer/customizer.php:45 inc/widgets.php:11
+#: inc/customizer/customizer.php:45 inc/third/bbpress.php:11 inc/widgets.php:11
 msgid "Sidebar"
 msgstr "サイドバー"
 
@@ -1032,40 +1032,46 @@ msgstr "Pages with category and tag"
 msgid "Word Balloon"
 msgstr "Word Balloon (吹き出し)"
 
+#: inc/third/bbpress.php:13 inc/third/bbpress.php:23 inc/third/bbpress.php:32
+#: inc/third/bbpress.php:41
+#, php-format
+msgid "Widgets in this area will be displayed in %s for bbPress."
+msgstr "このbbPress専用エリアのウィジェットは%sに表示されます。"
+
+#: inc/third/bbpress.php:13 inc/widgets.php:13
+msgid "right sidebar"
+msgstr "右サイドバー"
+
+#: inc/third/bbpress.php:21 inc/widgets.php:21
+msgid "Left of footer"
+msgstr "フッターの左側"
+
+#: inc/third/bbpress.php:23 inc/widgets.php:23
+msgid "the first column in the footer"
+msgstr "フッターの1列目"
+
+#: inc/third/bbpress.php:30 inc/widgets.php:30
+msgid "Center of footer"
+msgstr "フッターの中央"
+
+#: inc/third/bbpress.php:32 inc/widgets.php:32
+msgid "the second column in the footer"
+msgstr "フッターの2列目"
+
+#: inc/third/bbpress.php:39 inc/widgets.php:39
+msgid "Right of footer"
+msgstr "フッターの右側"
+
+#: inc/third/bbpress.php:41 inc/widgets.php:41
+msgid "the third column in the footer"
+msgstr "フッターの3列目"
+
 #: inc/widgets.php:13 inc/widgets.php:23 inc/widgets.php:32 inc/widgets.php:41
 #: inc/widgets.php:51 inc/widgets.php:62 inc/widgets.php:72 inc/widgets.php:82
 #: inc/widgets.php:94 inc/widgets.php:106 inc/widgets.php:121
 #, php-format
 msgid "Widgets in this area will be displayed in %s."
 msgstr "このエリアのウィジェットは%sに表示されます。"
-
-#: inc/widgets.php:13
-msgid "right sidebar"
-msgstr "右サイドバー"
-
-#: inc/widgets.php:21
-msgid "Left of footer"
-msgstr "フッターの左側"
-
-#: inc/widgets.php:23
-msgid "the first column in the footer"
-msgstr "フッターの1列目"
-
-#: inc/widgets.php:30
-msgid "Center of footer"
-msgstr "フッターの中央"
-
-#: inc/widgets.php:32
-msgid "the second column in the footer"
-msgstr "フッターの2列目"
-
-#: inc/widgets.php:39
-msgid "Right of footer"
-msgstr "フッターの右側"
-
-#: inc/widgets.php:41
-msgid "the third column in the footer"
-msgstr "フッターの3列目"
 
 #: inc/widgets.php:51 inc/widgets.php:72
 msgid "header"
@@ -1186,22 +1192,23 @@ msgid ""
 "theme.Visitors arrive by any devices.I designed it using a mobile-first "
 "approach.It is thus possible to improve usability of the smartphone.And of "
 "course, other devices is responsive.Translation ready and currently "
-"translated in Japanese(日本語).Dark mode compatible.If you use plugin of "
-"YAHMAN Add-ons, you can Page views,Google Adsense,Analytics,Social,Profile,"
-"Table of contents,Related Posts,notice,sitemap,SEO,JSON-LD structured data,"
-"Open Graph protocol(OGP),Blog card,Twitter timeline,Facebook timeline,"
-"Accelerated Mobile Pages(AMP),Carousel Slider.Let's try it."
+"translated in Japanese(日本語).Dark mode compatible.Ready to widget area for "
+"bbPress.If you use plugin of YAHMAN Add-ons, you can Page views,Google "
+"Adsense,Analytics,Social,Profile,Table of contents,Related Posts,notice,"
+"sitemap,SEO,JSON-LD structured data,Open Graph protocol(OGP),Blog card,"
+"Twitter timeline,Facebook timeline,Accelerated Mobile Pages(AMP),Carousel "
+"Slider.Let's try it."
 msgstr ""
 "Neatly はシンプルでクリーンそして読みやすいレスポンシブ WordPress のブログ"
 "テーマです。訪問者は、様々なデバイスを使っています。私はモバイルファーストを"
 "第一にデザインしました。そのためスマートフォンのユーザビリティを向上させてい"
 "ます。もちろん、他のデバイスも反応します。現在日本語の翻訳に対応しています。"
-"ダークモード対応。プラグインの YAHMAN Add-ons を使用すると、ページビュー、"
-"Google アドセンス、アナリティクス、SNS のリンク、プロフィール、目次、関連記"
-"事、通知ボックス、サイトマップ、SEO、JSON-LDを使用した構造化データ、OGP、ブロ"
-"グカード、Twitter タイムライン、Facebook タイムライン、Accelerated Mobile "
-"Pages(AMP) 、カルーセルスライダーを使用することができます。是非試してみてくだ"
-"さい。"
+"ダークモード対応。bbPress専用ウィジェットエリア対応。プラグインの YAHMAN Add-"
+"ons を使用すると、ページビュー、Google アドセンス、アナリティクス、SNS のリン"
+"ク、プロフィール、目次、関連記事、通知ボックス、サイトマップ、SEO、JSON-LDを"
+"使用した構造化データ、OGP、ブログカード、Twitter タイムライン、Facebook タイ"
+"ムライン、Accelerated Mobile Pages(AMP) 、カルーセルスライダーを使用すること"
+"ができます。是非試してみてください。"
 
 #. Author of the plugin/theme
 msgid "YAHMAN"
@@ -1210,6 +1217,29 @@ msgstr "やーまん"
 #. Author URI of the plugin/theme
 msgid "https://back2nature.jp/"
 msgstr "https://back2nature.jp/"
+
+#~ msgid ""
+#~ "Neatly is simple and clean , and readable , and full responsive WordPress "
+#~ "theme.Visitors arrive by any devices.I designed it using a mobile-first "
+#~ "approach.It is thus possible to improve usability of the smartphone.And "
+#~ "of course, other devices is responsive.Translation ready and currently "
+#~ "translated in Japanese(日本語).Dark mode compatible.If you use plugin of "
+#~ "YAHMAN Add-ons, you can Page views,Google Adsense,Analytics,Social,"
+#~ "Profile,Table of contents,Related Posts,notice,sitemap,SEO,JSON-LD "
+#~ "structured data,Open Graph protocol(OGP),Blog card,Twitter timeline,"
+#~ "Facebook timeline,Accelerated Mobile Pages(AMP),Carousel Slider.Let's try "
+#~ "it."
+#~ msgstr ""
+#~ "Neatly はシンプルでクリーンそして読みやすいレスポンシブ WordPress のブログ"
+#~ "テーマです。訪問者は、様々なデバイスを使っています。私はモバイルファースト"
+#~ "を第一にデザインしました。そのためスマートフォンのユーザビリティを向上させ"
+#~ "ています。もちろん、他のデバイスも反応します。現在日本語の翻訳に対応してい"
+#~ "ます。ダークモード対応。プラグインの YAHMAN Add-ons を使用すると、ページ"
+#~ "ビュー、Google アドセンス、アナリティクス、SNS のリンク、プロフィール、目"
+#~ "次、関連記事、通知ボックス、サイトマップ、SEO、JSON-LDを使用した構造化デー"
+#~ "タ、OGP、ブログカード、Twitter タイムライン、Facebook タイムライン、"
+#~ "Accelerated Mobile Pages(AMP) 、カルーセルスライダーを使用することができま"
+#~ "す。是非試してみてください。"
 
 #~ msgid ""
 #~ "Neatly is simple and clean , and readable , and full responsive WordPress "

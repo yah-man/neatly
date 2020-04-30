@@ -488,3 +488,44 @@ if ( ! function_exists( 'neatly_header_search_widget' ) ) :
 		<?php
 	}
 endif;
+
+if ( ! function_exists( 'neatly_show_footer_widget' ) ) :
+	function neatly_show_footer_widget(){
+
+		if ( is_page_template( 'templates/title_content_no_sidebar.php' ) ) return;
+
+		/*bbPress判定*/
+		if ( function_exists( 'neatly_is_bbpress' ) && neatly_is_bbpress() ){
+
+			if ( is_active_sidebar( 'bbpress-footer-1' )  || is_active_sidebar( 'bbpress-footer-2' )  || is_active_sidebar( 'bbpress-footer-3' )  ) : ?>
+				<div class="f_widget_wrap">
+					<div class="f_widget_inner wrap_frame f_box jc_sb f_col100">
+						<div class="f_widget_L f_widget_block f_col"><?php dynamic_sidebar('bbpress-footer-1'); ?></div>
+						<div class="f_widget_C f_widget_block f_col"><?php dynamic_sidebar('bbpress-footer-2'); ?></div>
+						<div class="f_widget_R f_widget_block f_col"><?php dynamic_sidebar('bbpress-footer-3'); ?></div>
+					</div>
+				</div>
+				<?php
+			endif;
+
+
+		}else{
+
+			if ( is_active_sidebar( 'footer-1' )  || is_active_sidebar( 'footer-2' )  || is_active_sidebar( 'footer-3' )  ) : ?>
+				<div class="f_widget_wrap">
+					<div class="f_widget_inner wrap_frame f_box jc_sb f_col100">
+						<div class="f_widget_L f_widget_block f_box f_col"><?php dynamic_sidebar('footer-1'); ?></div>
+						<div class="f_widget_C f_widget_block f_box f_col"><?php dynamic_sidebar('footer-2'); ?></div>
+						<div class="f_widget_R f_widget_block f_box f_col"><?php dynamic_sidebar('footer-3'); ?></div>
+					</div>
+				</div>
+				<?php
+			endif;
+
+		}
+
+
+
+
+	}
+endif;

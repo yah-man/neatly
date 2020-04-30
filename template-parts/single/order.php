@@ -25,7 +25,7 @@ function neatly_post_order( $type , $single_sortable , $post) {
 
   }
 
-  $yahman_addons_option = '';
+  $yahman_addons_option = array();
   if(function_exists('yahman_addons_plugins_loaded')){
     $yahman_addons_option = get_option('yahman_addons') ;
   }
@@ -34,6 +34,8 @@ function neatly_post_order( $type , $single_sortable , $post) {
     switch ($section){
 
       case 'breadcrumbs':
+
+      if ( function_exists( 'neatly_is_bbpress' ) && neatly_is_bbpress() ) break;
 
       if(!$switch['is_front_page']){
         get_template_part( 'inc/breadcrumbs' );
@@ -65,7 +67,7 @@ function neatly_post_order( $type , $single_sortable , $post) {
 
       if( isset($yahman_addons_option['pv']['enable']) ){
 
-        if( get_theme_mod( 'neatly_pageview_logout',false) || is_user_logged_in() ){
+        if( get_theme_mod( 'neatly_pageview_logout',false) || current_user_can('administrator') ){
 
           $pv_count = get_post_meta($post->ID, '_yahman_addons_pv_'.get_theme_mod( 'neatly_pageview','all'), true);
 

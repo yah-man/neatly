@@ -1,7 +1,7 @@
 === Neatly ===
 Contributors: back2nature
 Tested up to: 5.4
-Stable tag: 0.6.9
+Stable tag: 0.7.0
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: block-styles, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, footer-widgets, one-column, post-formats, right-sidebar, sticky-post, theme-options, threaded-comments, translation-ready, two-columns, blog
@@ -69,6 +69,10 @@ Copyright: Ryan Moreno (https://stocksnap.io/author/48680)
 
 
 == Changelog ==
+
+= 0.7.0 =
+* Released: May 31, 2020
+fixed: Block Editor Font Size.
 
 = 0.6.9 =
 * Released: May 21, 2020

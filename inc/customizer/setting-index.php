@@ -45,6 +45,63 @@ $wp_customize->add_control( new Neatly_Image_Select_Control( $wp_customize, 'nea
 )));
 
 
+/*Simple Days 抜粋設定*/
+$wp_customize->add_section('neatly_index_excerpt_setting',array(
+  'title' => esc_html__('Excerpt', 'neatly'),
+  'panel' => 'index_panel',
+));
+
+/*抜粋文字数*/
+$wp_customize->add_setting('excerpt_length',array('sanitize_callback' => 'absint',));
+$wp_customize->add_control('excerpt_length',array(
+  'section' => 'neatly_index_excerpt_setting',
+  'type' => 'hidden'
+));
+$wp_customize->selective_refresh->add_partial( 'excerpt_length', array(
+ 'selector' => '.index_content',
+));
+$wp_customize->add_setting( 'neatly_excerpt_length_customize', array(
+  'default' => 300,
+  'sanitize_callback' => 'absint',
+));
+$wp_customize->add_control( 'neatly_excerpt_length_customize', array(
+  'label' => esc_html__( 'Excerpt length', 'neatly' ),
+  'section' => 'neatly_index_excerpt_setting',
+  'type' => 'number',
+  'input_attrs' => array(
+    'min' => 0, 'step' => 1, 'max' => 5000,),
+));
+
+$wp_customize->add_setting( 'neatly_excerpt_type', array(
+  'default'           => 'characters',
+  'sanitize_callback' => 'neatly_sanitize_radio',
+));
+$wp_customize->add_control( 'neatly_excerpt_type', array(
+  'label'    => esc_html__( 'Excerpt type', 'neatly' ),
+  'section'  => 'neatly_index_excerpt_setting',
+  'type'     => 'radio',
+  'choices'  => array(
+    'words' => esc_html__( 'Words', 'neatly' ),
+    'characters' => esc_html__( 'Characters', 'neatly' ),
+  ),
+));
+
+$delimiter = '&hellip;';
+$wp_customize->add_setting( 'neatly_excerpt_ellipsis',array(
+  'default'    => $delimiter,
+  'sanitize_callback' => 'wp_strip_all_tags',
+));
+$wp_customize->add_control( 'neatly_excerpt_ellipsis',array(
+  'label'   => esc_html__( 'Ellipsis', 'neatly'),
+  'section' => 'neatly_index_excerpt_setting',
+  'type' => 'select',
+  'choices' => array(
+   '&nbsp;' => esc_html('&nbsp;'),
+   '&hellip;' => esc_html('&hellip;'),
+   '[&hellip;]' => esc_html('[&hellip;]'),
+   '&#8229;' => esc_html('&#8229;'),
+ ),
+));
 
 
 
@@ -103,7 +160,7 @@ $wp_customize->add_control( 'neatly_index_widget_num', array(
     'input_attrs' => array(
     	'min' => 1, 'step' => 1, 'max' => 10,
     ),
-));
+  ));
 
 
 
@@ -116,6 +173,9 @@ $wp_customize->add_section('index_author_sections',array(
 $wp_customize->add_setting( 'neatly_index_avatar', array(
   'default'           => true,
   'sanitize_callback' => 'sanitize_text_field',
+));
+$wp_customize->selective_refresh->add_partial( 'neatly_index_avatar', array(
+ 'selector' => '.index_avatar',
 ));
 $wp_customize->add_control( 'neatly_index_avatar', array(
   'label'    => esc_html__( 'Avatar', 'neatly' ),
@@ -133,7 +193,7 @@ $wp_customize->add_control( 'neatly_index_author_name', array(
   'type' => 'checkbox',
 ));
 
-/*Neatly サムネイルのサイズ*/
+/*Neatly 時間*/
 $wp_customize->add_section('index_date_sections',array(
   'title' => esc_html__('Date','neatly'),
   'panel' => 'index_panel',
@@ -142,6 +202,9 @@ $wp_customize->add_section('index_date_sections',array(
 $wp_customize->add_setting( 'neatly_index_date_type', array(
   'default'           => 'human',
   'sanitize_callback' => 'neatly_sanitize_radio',
+));
+$wp_customize->selective_refresh->add_partial( 'neatly_index_date_type', array(
+ 'selector' => '.index_date',
 ));
 $wp_customize->add_control( 'neatly_index_date_type', array(
   'label'    => esc_html__( 'Display method', 'neatly' ),

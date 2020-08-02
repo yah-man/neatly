@@ -74,6 +74,11 @@ function neatly_register_required_plugins() {
 			'slug'     => 'word-balloon',
 			'required' => false,
 		),
+		array(
+			'name'     => __( 'Simple Stripe', 'neatly' ),
+			'slug'     => 'simple-stripe',
+			'required' => false,
+		),
 	);
 
 	/*
@@ -173,5 +178,5 @@ function neatly_register_required_plugins() {
 		*/
 	);
 
-	tgmpa( $plugins, $config );
+tgmpa( $plugins, $config );
 }

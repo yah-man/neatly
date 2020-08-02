@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Neatly\n"
-"POT-Creation-Date: 2020-04-30 20:33+0900\n"
+"POT-Creation-Date: 2020-08-02 20:40+0900\n"
 "PO-Revision-Date: 2019-05-06 14:52+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -276,85 +276,109 @@ msgstr ""
 msgid "List layout and grid layout are alternately repeated"
 msgstr ""
 
-#: inc/customizer/setting-index.php:55 inc/customizer/setting-index.php:68
+#: inc/customizer/setting-index.php:50
+msgid "Excerpt"
+msgstr ""
+
+#: inc/customizer/setting-index.php:68
+msgid "Excerpt length"
+msgstr ""
+
+#: inc/customizer/setting-index.php:80
+msgid "Excerpt type"
+msgstr ""
+
+#: inc/customizer/setting-index.php:84
+msgid "Words"
+msgstr ""
+
+#: inc/customizer/setting-index.php:85
+msgid "Characters"
+msgstr ""
+
+#: inc/customizer/setting-index.php:95
+msgid "Ellipsis"
+msgstr ""
+
+#: inc/customizer/setting-index.php:112 inc/customizer/setting-index.php:125
 #: inc/customizer/setting-pages.php:35 inc/customizer/setting-pages.php:47
 #: inc/customizer/setting-posts.php:35 inc/customizer/setting-posts.php:47
 msgid "Thumbnail"
 msgstr ""
 
-#: inc/customizer/setting-index.php:64 inc/customizer/setting-pages.php:43
+#: inc/customizer/setting-index.php:121 inc/customizer/setting-pages.php:43
 #: inc/customizer/setting-posts.php:43
 msgid "Original size of thumbnail"
 msgstr ""
 
-#: inc/customizer/setting-index.php:69 inc/customizer/setting-pages.php:48
+#: inc/customizer/setting-index.php:126 inc/customizer/setting-pages.php:48
 #: inc/customizer/setting-posts.php:48
 msgid "Medium"
 msgstr ""
 
-#: inc/customizer/setting-index.php:70 inc/customizer/setting-pages.php:49
+#: inc/customizer/setting-index.php:127 inc/customizer/setting-pages.php:49
 #: inc/customizer/setting-posts.php:49
 msgid "Large"
 msgstr ""
 
-#: inc/customizer/setting-index.php:71 inc/customizer/setting-pages.php:50
+#: inc/customizer/setting-index.php:128 inc/customizer/setting-pages.php:50
 #: inc/customizer/setting-posts.php:50
 msgid "Full"
 msgstr ""
 
-#: inc/customizer/setting-index.php:77
+#: inc/customizer/setting-index.php:134
 msgid "Widget"
 msgstr ""
 
-#: inc/customizer/setting-index.php:86
+#: inc/customizer/setting-index.php:143
 msgid "How to Insert Index list widget area"
 msgstr ""
 
-#: inc/customizer/setting-index.php:90
+#: inc/customizer/setting-index.php:147
 msgid "Just after post"
 msgstr ""
 
-#: inc/customizer/setting-index.php:91
+#: inc/customizer/setting-index.php:148
 msgid "Every post"
 msgstr ""
 
-#: inc/customizer/setting-index.php:100
+#: inc/customizer/setting-index.php:157
 msgid "Count of post for above configuring"
 msgstr ""
 
-#: inc/customizer/setting-index.php:112 inc/customizer/setting-pages.php:77
+#: inc/customizer/setting-index.php:169 inc/customizer/setting-pages.php:77
 #: inc/customizer/setting-posts.php:77
 msgid "Author"
 msgstr ""
 
-#: inc/customizer/setting-index.php:121 inc/customizer/setting-pages.php:86
+#: inc/customizer/setting-index.php:181 inc/customizer/setting-pages.php:86
 #: inc/customizer/setting-posts.php:86
 msgid "Avatar"
 msgstr ""
 
-#: inc/customizer/setting-index.php:131 inc/customizer/setting-pages.php:96
+#: inc/customizer/setting-index.php:191 inc/customizer/setting-pages.php:96
 #: inc/customizer/setting-posts.php:96
 msgid "Name"
 msgstr ""
 
-#: inc/customizer/setting-index.php:138 inc/customizer/setting-pages.php:55
+#: inc/customizer/setting-index.php:198 inc/customizer/setting-pages.php:55
 #: inc/customizer/setting-posts.php:56
 msgid "Date"
 msgstr ""
 
-#: inc/customizer/setting-index.php:147
+#: inc/customizer/setting-index.php:210
 msgid "Display method"
 msgstr ""
 
-#: inc/customizer/setting-index.php:151
+#: inc/customizer/setting-index.php:214
 msgid "Human readable time difference"
 msgstr ""
 
-#: inc/customizer/setting-index.php:152
+#: inc/customizer/setting-index.php:215
 msgid "Normal display"
 msgstr ""
 
-#: inc/customizer/setting-index.php:153
+#: inc/customizer/setting-index.php:216
 msgid "None"
 msgstr ""
 
@@ -1017,6 +1041,10 @@ msgstr ""
 
 #: inc/tgm/tgm.php:73
 msgid "Word Balloon"
+msgstr ""
+
+#: inc/tgm/tgm.php:78
+msgid "Simple Stripe"
 msgstr ""
 
 #: inc/third/bbpress.php:13 inc/third/bbpress.php:23 inc/third/bbpress.php:32

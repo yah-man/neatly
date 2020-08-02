@@ -1,7 +1,7 @@
 <?php defined( 'ABSPATH' ) || exit;
 get_header(); ?>
 <div class="main_wrap wrap_frame f_box f_col110 jc_c001">
-	<main class="main_contents index_contents br4 f_box011 f_wrap011 <?php echo get_theme_mod( 'neatly_index_layout_list','list'); ?>">
+	<main class="main_contents index_contents br4 f_box011 f_wrap011 <?php echo esc_attr( get_theme_mod( 'neatly_index_layout_list','list') ); ?>">
 		<?php
 		if(have_posts()):
 

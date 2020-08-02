@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Neatly\n"
-"POT-Creation-Date: 2020-04-30 20:33+0900\n"
-"PO-Revision-Date: 2020-04-30 20:35+0900\n"
+"POT-Creation-Date: 2020-08-02 20:41+0900\n"
+"PO-Revision-Date: 2020-08-02 20:41+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -278,85 +278,109 @@ msgstr "グリッドレイアウト前にリストレイアウト"
 msgid "List layout and grid layout are alternately repeated"
 msgstr "リストレイアウトとグリッドレイアウトは交互に繰り返されます"
 
-#: inc/customizer/setting-index.php:55 inc/customizer/setting-index.php:68
+#: inc/customizer/setting-index.php:50
+msgid "Excerpt"
+msgstr "抜粋"
+
+#: inc/customizer/setting-index.php:68
+msgid "Excerpt length"
+msgstr "抜粋の長さ"
+
+#: inc/customizer/setting-index.php:80
+msgid "Excerpt type"
+msgstr "抜粋方法"
+
+#: inc/customizer/setting-index.php:84
+msgid "Words"
+msgstr "単語"
+
+#: inc/customizer/setting-index.php:85
+msgid "Characters"
+msgstr "文字数"
+
+#: inc/customizer/setting-index.php:95
+msgid "Ellipsis"
+msgstr "省略文字"
+
+#: inc/customizer/setting-index.php:112 inc/customizer/setting-index.php:125
 #: inc/customizer/setting-pages.php:35 inc/customizer/setting-pages.php:47
 #: inc/customizer/setting-posts.php:35 inc/customizer/setting-posts.php:47
 msgid "Thumbnail"
 msgstr "サムネイル"
 
-#: inc/customizer/setting-index.php:64 inc/customizer/setting-pages.php:43
+#: inc/customizer/setting-index.php:121 inc/customizer/setting-pages.php:43
 #: inc/customizer/setting-posts.php:43
 msgid "Original size of thumbnail"
 msgstr "サムネイルのサイズ"
 
-#: inc/customizer/setting-index.php:69 inc/customizer/setting-pages.php:48
+#: inc/customizer/setting-index.php:126 inc/customizer/setting-pages.php:48
 #: inc/customizer/setting-posts.php:48
 msgid "Medium"
 msgstr "中サイズ"
 
-#: inc/customizer/setting-index.php:70 inc/customizer/setting-pages.php:49
+#: inc/customizer/setting-index.php:127 inc/customizer/setting-pages.php:49
 #: inc/customizer/setting-posts.php:49
 msgid "Large"
 msgstr "大サイズ"
 
-#: inc/customizer/setting-index.php:71 inc/customizer/setting-pages.php:50
+#: inc/customizer/setting-index.php:128 inc/customizer/setting-pages.php:50
 #: inc/customizer/setting-posts.php:50
 msgid "Full"
 msgstr "フルサイズ"
 
-#: inc/customizer/setting-index.php:77
+#: inc/customizer/setting-index.php:134
 msgid "Widget"
 msgstr "ウィジェット"
 
-#: inc/customizer/setting-index.php:86
+#: inc/customizer/setting-index.php:143
 msgid "How to Insert Index list widget area"
 msgstr "インデックスリスト内へのウィジェットエリアの挿入方法"
 
-#: inc/customizer/setting-index.php:90
+#: inc/customizer/setting-index.php:147
 msgid "Just after post"
 msgstr "記事の後"
 
-#: inc/customizer/setting-index.php:91
+#: inc/customizer/setting-index.php:148
 msgid "Every post"
 msgstr "記事ごと"
 
-#: inc/customizer/setting-index.php:100
+#: inc/customizer/setting-index.php:157
 msgid "Count of post for above configuring"
 msgstr "上記設定の記事数"
 
-#: inc/customizer/setting-index.php:112 inc/customizer/setting-pages.php:77
+#: inc/customizer/setting-index.php:169 inc/customizer/setting-pages.php:77
 #: inc/customizer/setting-posts.php:77
 msgid "Author"
 msgstr "投稿者"
 
-#: inc/customizer/setting-index.php:121 inc/customizer/setting-pages.php:86
+#: inc/customizer/setting-index.php:181 inc/customizer/setting-pages.php:86
 #: inc/customizer/setting-posts.php:86
 msgid "Avatar"
 msgstr "アバター"
 
-#: inc/customizer/setting-index.php:131 inc/customizer/setting-pages.php:96
+#: inc/customizer/setting-index.php:191 inc/customizer/setting-pages.php:96
 #: inc/customizer/setting-posts.php:96
 msgid "Name"
 msgstr "名前"
 
-#: inc/customizer/setting-index.php:138 inc/customizer/setting-pages.php:55
+#: inc/customizer/setting-index.php:198 inc/customizer/setting-pages.php:55
 #: inc/customizer/setting-posts.php:56
 msgid "Date"
 msgstr "日付"
 
-#: inc/customizer/setting-index.php:147
+#: inc/customizer/setting-index.php:210
 msgid "Display method"
 msgstr "表示方法"
 
-#: inc/customizer/setting-index.php:151
+#: inc/customizer/setting-index.php:214
 msgid "Human readable time difference"
 msgstr "人間が読める時間差"
 
-#: inc/customizer/setting-index.php:152
+#: inc/customizer/setting-index.php:215
 msgid "Normal display"
 msgstr "通常表示"
 
-#: inc/customizer/setting-index.php:153
+#: inc/customizer/setting-index.php:216
 msgid "None"
 msgstr "なし"
 
@@ -1031,6 +1055,10 @@ msgstr "Pages with category and tag"
 #: inc/tgm/tgm.php:73
 msgid "Word Balloon"
 msgstr "Word Balloon (吹き出し)"
+
+#: inc/tgm/tgm.php:78
+msgid "Simple Stripe"
+msgstr "Simple Stripe"
 
 #: inc/third/bbpress.php:13 inc/third/bbpress.php:23 inc/third/bbpress.php:32
 #: inc/third/bbpress.php:41

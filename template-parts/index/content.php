@@ -15,6 +15,9 @@ $mod_value = array(
 	'index_avatar' => get_theme_mod( 'neatly_index_avatar',true),
 	'index_author_name' => get_theme_mod( 'neatly_index_author_name',true),
 	'index_date_type' => get_theme_mod( 'neatly_index_date_type','human'),
+	'excerpt_type' => get_theme_mod( 'neatly_excerpt_type','characters'),
+	'excerpt_length' => get_theme_mod( 'neatly_excerpt_length_customize',300),
+	'excerpt_ellipsis' => get_theme_mod( 'neatly_excerpt_ellipsis','&hellip;'),
 );
 
 
@@ -36,12 +39,34 @@ while(have_posts()): the_post();
 
 	}else{
 
-		$post_content = mb_strimwidth( wp_strip_all_tags( preg_replace('{\[[^\]]+\]}s', '',  get_the_content() ), true), 0 , 300, '...' );
+		if($mod_value['excerpt_type'] === 'characters'){
+
+			$post_content =  mb_substr(  wp_strip_all_tags( preg_replace('{\[[^\]]+\]}s', '',  get_the_content() ), true), 0 , absint( $mod_value['excerpt_length'] ) , 'UTF-8' ) .$mod_value['excerpt_ellipsis'];
+
+		}else{
+
+			$excerpt = explode(' ', wp_strip_all_tags( preg_replace('{\[[^\]]+\]}s', '',  get_the_content() ), true ), absint( $mod_value['excerpt_length'] ) );
+
+			if (count($excerpt) >= $mod_value['excerpt_length']) {
+
+				array_pop($excerpt);
+
+				$excerpt = implode(" ",$excerpt).$mod_value['excerpt_ellipsis'];
+
+			} else {
+
+				$excerpt = implode(" ",$excerpt);
+
+			}
+
+			$post_content =  preg_replace('{[[^]]*]}','',$excerpt);
+
+		}
 
 	}
 
 
-		$post_date = '';
+	$post_date = '';
 	if( is_sticky() ) {
 		$sticky = '<span class="mr4 svg16">'. neatly_get_theme_svg( 'thumb-tack' ) .'</span> ';
 

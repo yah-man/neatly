@@ -1,7 +1,7 @@
 === Neatly ===
 Contributors: back2nature
 Tested up to: 5.5
-Stable tag: 0.7.1
+Stable tag: 0.7.2
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: block-styles, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, footer-widgets, one-column, post-formats, right-sidebar, sticky-post, theme-options, threaded-comments, translation-ready, two-columns, blog
@@ -38,10 +38,6 @@ License: SIL Open Font License, version 1.1.
 License URI: https://scripts.sil.org/OFL
 Copyright: Font Awesome (https://fontawesome.com/v4.7.0/)
 
-Fitvids, Copyright Chris Coyier and Paravel
-Licenses: GNU GPL
-Source: https://github.com/davatron5000/FitVids.js
-
 TGM Plugin Activation
 License: GPLv2
 URL: http://tgmpluginactivation.com/
@@ -70,8 +66,14 @@ Copyright: Ryan Moreno (https://stocksnap.io/author/48680)
 
 == Changelog ==
 
+= 0.7.2 =
+* Released: September 11, 2020
+remove: Fitvids.
+fixed: Minor fix.
+add: Time customizer.
+
 = 0.7.1 =
-* Released: Aug 2, 2020
+* Released: August 2, 2020
 add: Index excerpt customizer.
 
 = 0.7.0 =

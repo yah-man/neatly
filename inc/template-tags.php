@@ -441,7 +441,7 @@ if ( ! function_exists( 'neatly_the_posts_pagination' ) ) :
 				}
 
 				$template = '
-				<nav class="navigation pagination-outer mb_L" role="navigation">
+				<nav class="navigation pagination-outer mb_L w100" role="navigation">
 				<h2 class="screen-reader-text">%1$s</h2>
 				%2$s
 				</nav>';

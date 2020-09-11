@@ -61,17 +61,30 @@ $wp_customize->add_setting( 'neatly_post_date_display', array(
   'default'           => 'both',
   'sanitize_callback' => 'neatly_sanitize_radio',
 ));
+$wp_customize->selective_refresh->add_partial( 'neatly_post_date_display', array(
+ 'selector' => '.post_date',
+));
 $wp_customize->add_control( 'neatly_post_date_display', array(
   'label'    => esc_html__( 'Date display', 'neatly' ),
   'section'  => 'neatly_post_date',
   'type'     => 'radio',
   'choices'  => array(
-    'none' => esc_html__( 'Hidden', 'neatly' ),
+    //'none' => esc_html__( 'Hidden', 'neatly' ),
     'publish' => esc_html__( 'Publish', 'neatly' ),
     'update' => esc_html__( 'Update', 'neatly' ),
     'both' => esc_html__( 'Publish & Update', 'neatly' ),
   ),
 ));
+$wp_customize->add_setting( 'neatly_post_time_display',array(
+  'default'    => false,
+  'sanitize_callback' => 'sanitize_text_field',
+));
+$wp_customize->add_control( 'neatly_post_time_display',array(
+  'label'   => esc_html__( 'Time', 'neatly'),
+  'section' => 'neatly_post_date',
+  'type' => 'checkbox',
+));
+
 
 $wp_customize->add_section('neatly_post_author',array(
   'title' => esc_html__('Author','neatly'),

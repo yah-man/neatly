@@ -57,21 +57,33 @@ $wp_customize->add_section('neatly_page_date',array(
 ));
 
 $wp_customize->add_setting( 'neatly_page_date_display', array(
-  'default'           => 'none',
+  'default'           => 'publish',
   'sanitize_callback' => 'neatly_sanitize_radio',
+));
+$wp_customize->selective_refresh->add_partial( 'neatly_page_date_display', array(
+ 'selector' => '.page_date',
 ));
 $wp_customize->add_control( 'neatly_page_date_display', array(
   'label'    => esc_html__( 'Date display', 'neatly' ),
   'section'  => 'neatly_page_date',
   'type'     => 'radio',
   'choices'  => array(
-    'none' => esc_html__( 'Hidden', 'neatly' ),
+    //'none' => esc_html__( 'Hidden', 'neatly' ),
     'publish' => esc_html__( 'Publish', 'neatly' ),
     'update' => esc_html__( 'Update', 'neatly' ),
     'both' => esc_html__( 'Publish & Update', 'neatly' ),
   ),
 ));
 
+$wp_customize->add_setting( 'neatly_page_time_display',array(
+  'default'    => false,
+  'sanitize_callback' => 'sanitize_text_field',
+));
+$wp_customize->add_control( 'neatly_page_time_display',array(
+  'label'   => esc_html__( 'Time', 'neatly'),
+  'section' => 'neatly_page_date',
+  'type' => 'checkbox',
+));
 
 $wp_customize->add_section('neatly_page_author',array(
   'title' => esc_html__('Author','neatly'),

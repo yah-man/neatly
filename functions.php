@@ -37,14 +37,12 @@ add_action( 'template_redirect', 'neatly_content_width', 0 );
  */
 if ( ! function_exists( 'neatly_menus' ) ) :
 	function neatly_menus() {
-		$locations = array(
-			/*メニュー*/
+		/*メニュー*/
+		register_nav_menus( array(
 			'primary'   => __( 'Header Menu', 'neatly' ),
 			'secondary' => __( 'Footer Menu', 'neatly' ),
 			'credit'  => __( 'Credit Menu', 'neatly' ),
-		);
-
-		register_nav_menus( $locations );
+		) );
 	}
 endif;
 add_action( 'init', 'neatly_menus' );
@@ -133,11 +131,11 @@ if ( ! function_exists( 'neatly_block_front_styles' ) ) :
 					wp_enqueue_style( 'neatly_block_one_column', NEATLY_THEME_URI . 'assets/css/block_one_column.min.css',array( 'neatly_block' ) );
 				}
 
-				if (  has_block( 'core-embed/vimeo' ) || has_block( 'core-embed/youtube') || has_block( 'video' ) ) {
+				//if (  has_block( 'core-embed/vimeo' ) || has_block( 'core-embed/youtube') || has_block( 'video' ) ) {
 					/*FITVIDS.JS*/
-					wp_enqueue_script( 'fitvids',NEATLY_THEME_URI . 'assets/js/block/jquery.fitvids.min.js', array('jquery'), null, true);
-					wp_add_inline_script( 'fitvids',  'jQuery(document).ready(function(){jQuery(".wp-block-embed-vimeo").fitVids();});');
-				}
+					//wp_enqueue_script( 'fitvids',NEATLY_THEME_URI . 'assets/js/block/jquery.fitvids.min.js', array('jquery'), null, true);
+					//wp_add_inline_script( 'fitvids',  'jQuery(document).ready(function(){jQuery(".wp-block-embed-vimeo").fitVids();});');
+				//}
 
 				return;
 
@@ -173,7 +171,8 @@ if ( is_admin() ){
 	require_once NEATLY_THEME_DIR . 'inc/tgm/tgm.php';
 
 	add_action('enqueue_block_editor_assets', function(){
-		wp_enqueue_style( 'neatly_block', NEATLY_THEME_URI . 'assets/css/block.min.css',array() );
+		wp_enqueue_style( 'neatly_admin_block', NEATLY_THEME_URI . 'assets/css/admin_block.min.css' );
+		wp_enqueue_style( 'neatly_block', NEATLY_THEME_URI . 'assets/css/block.min.css',array('neatly_admin_block') );
 		wp_enqueue_style( 'neatly_block_one_column', NEATLY_THEME_URI . 'assets/css/block_one_column.min.css',array( 'neatly_block' ) );
 	});
 

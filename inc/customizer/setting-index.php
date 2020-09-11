@@ -45,7 +45,7 @@ $wp_customize->add_control( new Neatly_Image_Select_Control( $wp_customize, 'nea
 )));
 
 
-/*Simple Days 抜粋設定*/
+/*Neatly 抜粋設定*/
 $wp_customize->add_section('neatly_index_excerpt_setting',array(
   'title' => esc_html__('Excerpt', 'neatly'),
   'panel' => 'index_panel',
@@ -215,4 +215,14 @@ $wp_customize->add_control( 'neatly_index_date_type', array(
     'normal' => esc_html__( 'Normal display', 'neatly' ),
     'none' => esc_html__( 'None', 'neatly' ),
   ),
+));
+
+$wp_customize->add_setting( 'neatly_index_time_display',array(
+  'default'    => false,
+  'sanitize_callback' => 'sanitize_text_field',
+));
+$wp_customize->add_control( 'neatly_index_time_display',array(
+  'label'   => esc_html__( 'Time', 'neatly'),
+  'section' => 'index_date_sections',
+  'type' => 'checkbox',
 ));

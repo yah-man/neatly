@@ -15,6 +15,7 @@ $mod_value = array(
 	'index_avatar' => get_theme_mod( 'neatly_index_avatar',true),
 	'index_author_name' => get_theme_mod( 'neatly_index_author_name',true),
 	'index_date_type' => get_theme_mod( 'neatly_index_date_type','human'),
+	'index_time_display' => get_theme_mod( 'neatly_index_time_display',false),
 	'excerpt_type' => get_theme_mod( 'neatly_excerpt_type','characters'),
 	'excerpt_length' => get_theme_mod( 'neatly_excerpt_length_customize',300),
 	'excerpt_ellipsis' => get_theme_mod( 'neatly_excerpt_ellipsis','&hellip;'),
@@ -67,16 +68,26 @@ while(have_posts()): the_post();
 
 
 	$post_date = '';
+
 	if( is_sticky() ) {
 		$sticky = '<span class="mr4 svg16">'. neatly_get_theme_svg( 'thumb-tack' ) .'</span> ';
 
 	}else{
-		$post_date = get_the_date();
+
 		if( $mod_value['index_date_type'] === 'human'){
 
 			$human_time =  neatly_human_time_diff( date_i18n('Y-m-d H:i:s', get_the_time('U') ) );
 			if($human_time !== '')$post_date = $human_time;
 
+		}elseif( $mod_value['index_date_type'] === 'normal'){
+			$post_date = get_the_date();
+
+			if($mod_value['index_time_display'])
+				$post_date .= '<span class="index_time ml4 sub_fc fs12">'.get_the_time().'</span>';
+		}
+
+		if($mod_value['index_date_type'] !== 'none'){
+			$post_date = '<div class="index_date sub_fc fs12" title="'.get_the_date().'">'.$post_date.'</div>';
 		}
 
 	}
@@ -115,11 +126,12 @@ while(have_posts()): the_post();
 				<?php endif; ?>
 				<div class="lh_12">
 					<?php if($mod_value['index_author_name']): ?>
-						<div class="index_author sub_fc fs12 mb4"><?php echo '<a href="'.esc_url(get_author_posts_url( get_the_author_meta( 'ID' ) )).'" class="sub_fc">'. $post_author .'</a>'; ?></div>
+						<div class="index_author sub_fc fs12 mb4">
+							<?php echo '<a href="'.esc_url(get_author_posts_url( get_the_author_meta( 'ID' ) )).'" class="sub_fc">'. $post_author .'</a>'; ?>
+						</div>
 					<?php endif;
-					if($mod_value['index_date_type'] !== 'none'): ?>
-						<div class="index_date sub_fc fs12" title="<?php echo get_the_date(); ?>"><?php echo $post_date; ?></div>
-					<?php endif; ?>
+					echo $post_date;
+					?>
 				</div>
 			</div>
 		</div>

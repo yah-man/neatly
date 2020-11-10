@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Neatly\n"
-"POT-Creation-Date: 2020-08-02 20:40+0900\n"
+"POT-Creation-Date: 2020-11-10 21:02+0900\n"
 "PO-Revision-Date: 2019-05-06 14:52+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -66,7 +66,7 @@ msgstr ""
 msgid "Leave a Comment"
 msgstr ""
 
-#: comments.php:141 inc/customizer/setting-posts.php:103
+#: comments.php:141 inc/customizer/setting-posts.php:116
 msgid "Comments"
 msgstr ""
 
@@ -237,11 +237,23 @@ msgid "Header"
 msgstr ""
 
 #: inc/customizer/customizer.php:57
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/customizer.php:63
 msgid "Index"
 msgstr ""
 
-#: inc/customizer/customizer.php:63 inc/tgm/notice.php:24 inc/tgm/tgm.php:63
+#: inc/customizer/customizer.php:69 inc/tgm/notice.php:24 inc/tgm/tgm.php:63
 msgid "YAHMAN Add-ons"
+msgstr ""
+
+#: inc/customizer/setting-footer.php:12
+msgid "Copyright"
+msgstr ""
+
+#: inc/customizer/setting-footer.php:28
+msgid "Year of Publication"
 msgstr ""
 
 #: inc/customizer/setting-header.php:12
@@ -346,18 +358,18 @@ msgstr ""
 msgid "Count of post for above configuring"
 msgstr ""
 
-#: inc/customizer/setting-index.php:169 inc/customizer/setting-pages.php:77
-#: inc/customizer/setting-posts.php:77
+#: inc/customizer/setting-index.php:169 inc/customizer/setting-pages.php:89
+#: inc/customizer/setting-posts.php:90
 msgid "Author"
 msgstr ""
 
-#: inc/customizer/setting-index.php:181 inc/customizer/setting-pages.php:86
-#: inc/customizer/setting-posts.php:86
+#: inc/customizer/setting-index.php:181 inc/customizer/setting-pages.php:98
+#: inc/customizer/setting-posts.php:99
 msgid "Avatar"
 msgstr ""
 
-#: inc/customizer/setting-index.php:191 inc/customizer/setting-pages.php:96
-#: inc/customizer/setting-posts.php:96
+#: inc/customizer/setting-index.php:191 inc/customizer/setting-pages.php:108
+#: inc/customizer/setting-posts.php:109
 msgid "Name"
 msgstr ""
 
@@ -382,6 +394,11 @@ msgstr ""
 msgid "None"
 msgstr ""
 
+#: inc/customizer/setting-index.php:225 inc/customizer/setting-pages.php:83
+#: inc/customizer/setting-posts.php:83
+msgid "Time"
+msgstr ""
+
 #: inc/customizer/setting-pages.php:12 inc/customizer/setting-pages.php:26
 #: inc/customizer/setting-posts.php:12 inc/customizer/setting-posts.php:26
 msgid "Reorder Sections & Show / Hide"
@@ -395,54 +412,53 @@ msgstr ""
 msgid "Switch to show or hide when eye icon click or tap."
 msgstr ""
 
-#: inc/customizer/setting-pages.php:64 inc/customizer/setting-posts.php:65
+#: inc/customizer/setting-pages.php:67 inc/customizer/setting-posts.php:68
 msgid "Date display"
 msgstr ""
 
-#: inc/customizer/setting-pages.php:68 inc/customizer/setting-posts.php:69
-#: inc/customizer/setting-sidebar.php:25
-msgid "Hidden"
-msgstr ""
-
-#: inc/customizer/setting-pages.php:69 inc/customizer/setting-posts.php:70
+#: inc/customizer/setting-pages.php:72 inc/customizer/setting-posts.php:73
 msgid "Publish"
 msgstr ""
 
-#: inc/customizer/setting-pages.php:70 inc/customizer/setting-posts.php:71
+#: inc/customizer/setting-pages.php:73 inc/customizer/setting-posts.php:74
 #: inc/tgm/class-tgm-plugin-activation.php:2723
 msgid "Update"
 msgstr ""
 
-#: inc/customizer/setting-pages.php:71 inc/customizer/setting-posts.php:72
+#: inc/customizer/setting-pages.php:74 inc/customizer/setting-posts.php:75
 msgid "Publish & Update"
 msgstr ""
 
-#: inc/customizer/setting-pages.php:102 inc/customizer/setting-posts.php:138
+#: inc/customizer/setting-pages.php:114 inc/customizer/setting-posts.php:151
 msgid "Fit content"
 msgstr ""
 
-#: inc/customizer/setting-pages.php:113 inc/widgets.php:119
+#: inc/customizer/setting-pages.php:125 inc/widgets.php:119
 msgid "Page widget"
 msgstr ""
 
-#: inc/customizer/setting-posts.php:111
+#: inc/customizer/setting-posts.php:124
 msgid "Comment Text Field to Bottom"
 msgstr ""
 
-#: inc/customizer/setting-posts.php:121
+#: inc/customizer/setting-posts.php:134
 msgid "Website Field Disappear"
 msgstr ""
 
-#: inc/customizer/setting-posts.php:131
+#: inc/customizer/setting-posts.php:144
 msgid "Mail Field Disappear"
 msgstr ""
 
-#: inc/customizer/setting-posts.php:149 inc/widgets.php:104
+#: inc/customizer/setting-posts.php:162 inc/widgets.php:104
 msgid "Post widget"
 msgstr ""
 
 #: inc/customizer/setting-sidebar.php:21
 msgid "Sidebar display"
+msgstr ""
+
+#: inc/customizer/setting-sidebar.php:25
+msgid "Hidden"
 msgstr ""
 
 #: inc/customizer/setting-sidebar.php:26
@@ -1004,9 +1020,8 @@ msgstr ""
 #: inc/tgm/notice.php:40
 msgid ""
 "Pageviews,Google Adsense,Analytics,Social,Profile,Table of contents,Related "
-"Posts,notice,sitemap,SEO,JSON-LD structured data,Open Graph protocol(OGP),"
-"Blog card,Twitter timeline,Facebook timeline,Accelerated Mobile Pages(AMP), "
-"etc."
+"Posts,sitemap,SEO,JSON-LD structured data,Open Graph protocol(OGP),Blog card,"
+"Twitter timeline,Facebook timeline,Accelerated Mobile Pages(AMP), etc."
 msgstr ""
 
 #: inc/tgm/notice.php:43
@@ -1044,6 +1059,10 @@ msgid "Word Balloon"
 msgstr ""
 
 #: inc/tgm/tgm.php:78
+msgid "Point Maker"
+msgstr ""
+
+#: inc/tgm/tgm.php:83
 msgid "Simple Stripe"
 msgstr ""
 

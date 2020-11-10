@@ -75,6 +75,11 @@ function neatly_register_required_plugins() {
 			'required' => false,
 		),
 		array(
+			'name'     => __( 'Point Maker', 'neatly' ),
+			'slug'     => 'point-maker',
+			'required' => false,
+		),
+		array(
 			'name'     => __( 'Simple Stripe', 'neatly' ),
 			'slug'     => 'simple-stripe',
 			'required' => false,

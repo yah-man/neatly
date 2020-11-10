@@ -52,6 +52,12 @@ class NEATLY_CUSTOMIZER {
 		));
 		require_once NEATLY_THEME_DIR . 'inc/customizer/setting-header.php';
 
+		/*Neatly フッターパネル*/
+		$wp_customize->add_panel( 'footer_panel', array(
+			'title'       => esc_html__('Footer', 'neatly'),
+		));
+		require_once NEATLY_THEME_DIR . 'inc/customizer/setting-footer.php';
+
 		/*Neatly インデックスパネル*/
 		$wp_customize->add_panel( 'index_panel', array(
 			'title'       => esc_html__('Index', 'neatly'),

@@ -1,13 +1,13 @@
 === Neatly ===
 Contributors: back2nature
 Tested up to: 5.5
-Stable tag: 0.7.2
+Stable tag: 0.7.3
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: block-styles, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, footer-widgets, one-column, post-formats, right-sidebar, sticky-post, theme-options, threaded-comments, translation-ready, two-columns, blog
 
 == Description ==
-Neatly is simple and clean , and readable , and full responsive WordPress theme.Visitors arrive by any devices.I designed it using a mobile-first approach.It is thus possible to improve usability of the smartphone.And of course, other devices is responsive.Translation ready and currently translated in Japanese(日本語).Dark mode compatible.Ready to widget area for bbPress.If you use plugin of YAHMAN Add-ons, you can Page views,Google Adsense,Analytics,Social,Profile,Table of contents,Related Posts,notice,sitemap,SEO,JSON-LD structured data,Open Graph protocol(OGP),Blog card,Twitter timeline,Facebook timeline,Accelerated Mobile Pages(AMP),Carousel Slider.Let's try it.
+Neatly is simple and clean , and readable , and full responsive WordPress theme.Dark mode compatible.Visitors arrive by any devices.I designed it using a mobile-first approach.It is thus possible to improve usability of the smartphone.And of course, other devices is responsive.Translation ready and currently translated in Japanese(日本語).Ready to widget area for bbPress.If you use plugin of YAHMAN Add-ons, you can Page views,Google Adsense,Analytics,Social,Profile,Table of contents,Related Posts,sitemap,SEO,JSON-LD structured data,Open Graph protocol(OGP),Blog card,Twitter timeline,Facebook timeline,Accelerated Mobile Pages(AMP),Carousel Slider.Let's try it.
 
 == Installation ==
 
@@ -65,6 +65,10 @@ Copyright: Ryan Moreno (https://stocksnap.io/author/48680)
 
 
 == Changelog ==
+
+= 0.7.3 =
+* Released: November 10, 2020
+Year of Publication customizer.
 
 = 0.7.2 =
 * Released: September 11, 2020

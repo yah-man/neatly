@@ -37,7 +37,7 @@ function neatly_yahman_addons_notice() {
 			<?php echo esc_html__( 'This plugin optimize for Neatly.', 'neatly' ); ?>
 		</p>
 		<p class="neatly_notice_description">
-			<?php echo esc_html__( 'Pageviews,Google Adsense,Analytics,Social,Profile,Table of contents,Related Posts,notice,sitemap,SEO,JSON-LD structured data,Open Graph protocol(OGP),Blog card,Twitter timeline,Facebook timeline,Accelerated Mobile Pages(AMP), etc.', 'neatly' ); ?>
+			<?php echo esc_html__( 'Pageviews,Google Adsense,Analytics,Social,Profile,Table of contents,Related Posts,sitemap,SEO,JSON-LD structured data,Open Graph protocol(OGP),Blog card,Twitter timeline,Facebook timeline,Accelerated Mobile Pages(AMP), etc.', 'neatly' ); ?>
 		</p>
 		<p class="neatly_notice_description">
 			<?php echo esc_html__( 'Of course, it\'s free.', 'neatly' ); ?>

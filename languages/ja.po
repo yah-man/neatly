@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Neatly\n"
-"POT-Creation-Date: 2020-08-02 20:41+0900\n"
-"PO-Revision-Date: 2020-08-02 20:41+0900\n"
+"POT-Creation-Date: 2020-11-10 21:02+0900\n"
+"PO-Revision-Date: 2020-11-10 21:02+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -66,7 +66,7 @@ msgstr "コメントを送信"
 msgid "Leave a Comment"
 msgstr "コメントする"
 
-#: comments.php:141 inc/customizer/setting-posts.php:103
+#: comments.php:141 inc/customizer/setting-posts.php:116
 msgid "Comments"
 msgstr "コメント"
 
@@ -239,12 +239,24 @@ msgid "Header"
 msgstr "ヘッダー"
 
 #: inc/customizer/customizer.php:57
+msgid "Footer"
+msgstr "フッター"
+
+#: inc/customizer/customizer.php:63
 msgid "Index"
 msgstr "インデックス"
 
-#: inc/customizer/customizer.php:63 inc/tgm/notice.php:24 inc/tgm/tgm.php:63
+#: inc/customizer/customizer.php:69 inc/tgm/notice.php:24 inc/tgm/tgm.php:63
 msgid "YAHMAN Add-ons"
 msgstr "YAHMAN Add-ons"
+
+#: inc/customizer/setting-footer.php:12
+msgid "Copyright"
+msgstr "著作権表記"
+
+#: inc/customizer/setting-footer.php:28
+msgid "Year of Publication"
+msgstr "最初に投稿した年"
 
 #: inc/customizer/setting-header.php:12
 msgid "Tagline"
@@ -348,18 +360,18 @@ msgstr "記事ごと"
 msgid "Count of post for above configuring"
 msgstr "上記設定の記事数"
 
-#: inc/customizer/setting-index.php:169 inc/customizer/setting-pages.php:77
-#: inc/customizer/setting-posts.php:77
+#: inc/customizer/setting-index.php:169 inc/customizer/setting-pages.php:89
+#: inc/customizer/setting-posts.php:90
 msgid "Author"
 msgstr "投稿者"
 
-#: inc/customizer/setting-index.php:181 inc/customizer/setting-pages.php:86
-#: inc/customizer/setting-posts.php:86
+#: inc/customizer/setting-index.php:181 inc/customizer/setting-pages.php:98
+#: inc/customizer/setting-posts.php:99
 msgid "Avatar"
 msgstr "アバター"
 
-#: inc/customizer/setting-index.php:191 inc/customizer/setting-pages.php:96
-#: inc/customizer/setting-posts.php:96
+#: inc/customizer/setting-index.php:191 inc/customizer/setting-pages.php:108
+#: inc/customizer/setting-posts.php:109
 msgid "Name"
 msgstr "名前"
 
@@ -384,6 +396,11 @@ msgstr "通常表示"
 msgid "None"
 msgstr "なし"
 
+#: inc/customizer/setting-index.php:225 inc/customizer/setting-pages.php:83
+#: inc/customizer/setting-posts.php:83
+msgid "Time"
+msgstr "時刻"
+
 #: inc/customizer/setting-pages.php:12 inc/customizer/setting-pages.php:26
 #: inc/customizer/setting-posts.php:12 inc/customizer/setting-posts.php:26
 msgid "Reorder Sections & Show / Hide"
@@ -398,55 +415,54 @@ msgid "Switch to show or hide when eye icon click or tap."
 msgstr ""
 "目のアイコンをクリックまたはタップしたときに表示または非表示に切り替えます。"
 
-#: inc/customizer/setting-pages.php:64 inc/customizer/setting-posts.php:65
+#: inc/customizer/setting-pages.php:67 inc/customizer/setting-posts.php:68
 msgid "Date display"
 msgstr "日付の表示"
 
-#: inc/customizer/setting-pages.php:68 inc/customizer/setting-posts.php:69
-#: inc/customizer/setting-sidebar.php:25
-msgid "Hidden"
-msgstr "非表示"
-
-#: inc/customizer/setting-pages.php:69 inc/customizer/setting-posts.php:70
+#: inc/customizer/setting-pages.php:72 inc/customizer/setting-posts.php:73
 msgid "Publish"
 msgstr "公開日:"
 
-#: inc/customizer/setting-pages.php:70 inc/customizer/setting-posts.php:71
+#: inc/customizer/setting-pages.php:73 inc/customizer/setting-posts.php:74
 #: inc/tgm/class-tgm-plugin-activation.php:2723
 msgid "Update"
 msgstr "更新日"
 
-#: inc/customizer/setting-pages.php:71 inc/customizer/setting-posts.php:72
+#: inc/customizer/setting-pages.php:74 inc/customizer/setting-posts.php:75
 msgid "Publish & Update"
 msgstr "公開日と更新日"
 
-#: inc/customizer/setting-pages.php:102 inc/customizer/setting-posts.php:138
+#: inc/customizer/setting-pages.php:114 inc/customizer/setting-posts.php:151
 msgid "Fit content"
 msgstr "コンテンツに合わせる"
 
-#: inc/customizer/setting-pages.php:113 inc/widgets.php:119
+#: inc/customizer/setting-pages.php:125 inc/widgets.php:119
 msgid "Page widget"
 msgstr "固定ページウィジェット"
 
-#: inc/customizer/setting-posts.php:111
+#: inc/customizer/setting-posts.php:124
 msgid "Comment Text Field to Bottom"
 msgstr "コメント欄を下にする"
 
-#: inc/customizer/setting-posts.php:121
+#: inc/customizer/setting-posts.php:134
 msgid "Website Field Disappear"
 msgstr "ウェブサイトの欄を非表示にする"
 
-#: inc/customizer/setting-posts.php:131
+#: inc/customizer/setting-posts.php:144
 msgid "Mail Field Disappear"
 msgstr "Eメールの欄を非表示にする"
 
-#: inc/customizer/setting-posts.php:149 inc/widgets.php:104
+#: inc/customizer/setting-posts.php:162 inc/widgets.php:104
 msgid "Post widget"
 msgstr "投稿ウィジェット"
 
 #: inc/customizer/setting-sidebar.php:21
 msgid "Sidebar display"
 msgstr "サイドバーの表示"
+
+#: inc/customizer/setting-sidebar.php:25
+msgid "Hidden"
+msgstr "非表示"
 
 #: inc/customizer/setting-sidebar.php:26
 msgid "All"
@@ -1013,14 +1029,12 @@ msgstr "このプラグインはNeatlyに最適化しています。"
 #: inc/tgm/notice.php:40
 msgid ""
 "Pageviews,Google Adsense,Analytics,Social,Profile,Table of contents,Related "
-"Posts,notice,sitemap,SEO,JSON-LD structured data,Open Graph protocol(OGP),"
-"Blog card,Twitter timeline,Facebook timeline,Accelerated Mobile Pages(AMP), "
-"etc."
+"Posts,sitemap,SEO,JSON-LD structured data,Open Graph protocol(OGP),Blog card,"
+"Twitter timeline,Facebook timeline,Accelerated Mobile Pages(AMP), etc."
 msgstr ""
 "ページビュー,Google アドセンス,Google アナリティクス,SNS,プロフィール,目次,関"
-"連記事,通知ボックス,サイトマップ,SEO,JSON-LDの構造化データ,OGP,Blog カード,"
-"Twitter タイムライン,Facebook タイムライン,Accelerated Mobile Pages(AMP) 、な"
-"ど"
+"連記事,サイトマップ,SEO,JSON-LDの構造化データ,OGP,Blog カード,Twitter タイム"
+"ライン,Facebook タイムライン,Accelerated Mobile Pages(AMP) 、など"
 
 #: inc/tgm/notice.php:43
 msgid "Of course, it's free."
@@ -1057,6 +1071,10 @@ msgid "Word Balloon"
 msgstr "Word Balloon (吹き出し)"
 
 #: inc/tgm/tgm.php:78
+msgid "Point Maker"
+msgstr "Point Maker"
+
+#: inc/tgm/tgm.php:83
 msgid "Simple Stripe"
 msgstr "Simple Stripe"
 
@@ -1228,15 +1246,15 @@ msgid ""
 "Slider.Let's try it."
 msgstr ""
 "Neatly はシンプルでクリーンそして読みやすいレスポンシブ WordPress のブログ"
-"テーマです。訪問者は、様々なデバイスを使っています。私はモバイルファーストを"
-"第一にデザインしました。そのためスマートフォンのユーザビリティを向上させてい"
-"ます。もちろん、他のデバイスも反応します。現在日本語の翻訳に対応しています。"
-"ダークモード対応。bbPress専用ウィジェットエリア対応。プラグインの YAHMAN Add-"
+"テーマです。ダークモード対応。訪問者は、様々なデバイスを使っています。私はモ"
+"バイルファーストを第一にデザインしました。そのためスマートフォンのユーザビリ"
+"ティを向上させています。もちろん、他のデバイスも反応します。現在日本語の翻訳"
+"に対応しています。bbPress専用ウィジェットエリア対応。プラグインの YAHMAN Add-"
 "ons を使用すると、ページビュー、Google アドセンス、アナリティクス、SNS のリン"
-"ク、プロフィール、目次、関連記事、通知ボックス、サイトマップ、SEO、JSON-LDを"
-"使用した構造化データ、OGP、ブログカード、Twitter タイムライン、Facebook タイ"
-"ムライン、Accelerated Mobile Pages(AMP) 、カルーセルスライダーを使用すること"
-"ができます。是非試してみてください。"
+"ク、プロフィール、目次、関連記事、サイトマップ、SEO、JSON-LDを使用した構造化"
+"データ、OGP、ブログカード、Twitter タイムライン、Facebook タイムライン、"
+"Accelerated Mobile Pages(AMP) 、カルーセルスライダーを使用することができま"
+"す。是非試してみてください。"
 
 #. Author of the plugin/theme
 msgid "YAHMAN"
@@ -1245,6 +1263,17 @@ msgstr "やーまん"
 #. Author URI of the plugin/theme
 msgid "https://back2nature.jp/"
 msgstr "https://back2nature.jp/"
+
+#~ msgid ""
+#~ "Pageviews,Google Adsense,Analytics,Social,Profile,Table of contents,"
+#~ "Related Posts,notice,sitemap,SEO,JSON-LD structured data,Open Graph "
+#~ "protocol(OGP),Blog card,Twitter timeline,Facebook timeline,Accelerated "
+#~ "Mobile Pages(AMP), etc."
+#~ msgstr ""
+#~ "ページビュー,Google アドセンス,Google アナリティクス,SNS,プロフィール,目"
+#~ "次,関連記事,通知ボックス,サイトマップ,SEO,JSON-LDの構造化データ,OGP,Blog "
+#~ "カード,Twitter タイムライン,Facebook タイムライン,Accelerated Mobile "
+#~ "Pages(AMP) 、など"
 
 #~ msgid ""
 #~ "Neatly is simple and clean , and readable , and full responsive WordPress "

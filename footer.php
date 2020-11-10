@@ -15,7 +15,7 @@
 				<div class="m4">Powered by <a href="<?php echo esc_url('https://wordpress.org/'); ?>">WordPress</a></div>
 				<div class="m4">Theme by <a href="<?php echo esc_url('https://back2nature.jp/'.$local_url.'themes/neatly'); ?>">Neatly</a></div>
 			</div>
-			<div class="m4 p16_0">&copy;<?php echo esc_html( date('Y') ) .' <a href="'. esc_url( home_url() ).'">'.esc_html( get_bloginfo('name') , 'display' ).'</a>'; ?></div>
+			<div class="m4 p16_0">&copy;<?php echo esc_html( get_theme_mod( 'neatly_footer_copyright_year', date('Y') ) ) .' <a href="'. esc_url( home_url() ).'">'.esc_html( get_bloginfo('name') , 'display' ).'</a>'; ?></div>
 		</div>
 	</div>
 </footer>

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neatly\n"
 "POT-Creation-Date: 2020-11-18 20:06+0900\n"
-"PO-Revision-Date: 2020-11-18 20:06+0900\n"
+"PO-Revision-Date: 2020-11-20 11:49+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -835,7 +835,7 @@ msgstr[0] "インストールする<span class=\"count\">(%s)</span>"
 #, php-format
 msgid "Update Available <span class=\"count\">(%s)</span>"
 msgid_plural "Update Available <span class=\"count\">(%s)</span>"
-msgstr[0] "利用可能な更新<span class = \"count\">(%s)</ span>"
+msgstr[0] "利用可能な更新<span class=\"count\">(%s)</span>"
 
 #: inc/tgm/class-tgm-plugin-activation.php:2400
 #, php-format

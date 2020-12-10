@@ -44,11 +44,11 @@ class NEATLY_WALKER_NAV_MENU extends Walker_Nav_Menu {
 			}
 
 			$output .= "\n" . '<li id="menu-item-'.$item->ID.'" class="menu-item-'.$item->ID.$menu_class.' relative fs24 fw_bold">' . "\n";
+			$output .= "\n" . '<input type="checkbox" id="'.$input_id.'" class="dn">';
 			$output .= "\n" . '<div class="caret_wrap f_box jc_sb ai_c">' . "\n";
 			$output .= $this->create_a_tag($item, $depth, $args , '');
 			$output .= "\n" . $label . "\n";
 			$output .= "\n" . '</div>' . "\n";
-			$output .= "\n" . '<input type="checkbox" id="'.$input_id.'" class="dn">';
 			$output .= "\n" . '<ul id="sub-'.$input_id.'" class="sub-menu absolute db lsn">';
 
 
@@ -476,9 +476,9 @@ add_filter('comment_reply_link', 'neatly_replace_reply_link_class');
 if ( ! function_exists( 'neatly_header_search_widget' ) ) :
 	function neatly_header_search_widget(){
 		?>
-		<div class="sw_open">
+		<div class="sw_open relative" style="z-index:100;">
 			<input type="checkbox" id="sw" class="dn" />
-			<div id="sw_wrap" class="left0 top0" style="z-index:100;">
+			<div id="sw_wrap" class="left0 top0">
 				<label for="sw" class="absolute w100 h100 left0 top0" style="z-index:101;"></label>
 				<div class="sw_inner absolute" style="z-index:102;">
 					<?php dynamic_sidebar('search_widget'); ?>

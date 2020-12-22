@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Neatly\n"
-"POT-Creation-Date: 2020-11-18 20:06+0900\n"
+"POT-Creation-Date: 2020-12-22 21:17+0900\n"
 "PO-Revision-Date: 2019-05-06 14:52+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -88,15 +88,15 @@ msgid ""
 "Save my name, email, and website in this browser for the next time I comment."
 msgstr ""
 
-#: functions.php:42
+#: functions.php:41
 msgid "Header Menu"
 msgstr ""
 
-#: functions.php:43
+#: functions.php:42
 msgid "Footer Menu"
 msgstr ""
 
-#: functions.php:44
+#: functions.php:43
 msgid "Credit Menu"
 msgstr ""
 
@@ -1180,11 +1180,11 @@ msgstr ""
 msgid "Perhaps searching can help."
 msgstr ""
 
-#: template-parts/single/adjacent.php:14
+#: template-parts/single/adjacent.php:12
 msgid "Prev"
 msgstr ""
 
-#: template-parts/single/adjacent.php:16
+#: template-parts/single/adjacent.php:14
 msgid "Next"
 msgstr ""
 
@@ -1222,15 +1222,14 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Neatly is simple and clean , and readable , and full responsive WordPress "
-"theme.Visitors arrive by any devices.I designed it using a mobile-first "
-"approach.It is thus possible to improve usability of the smartphone.And of "
-"course, other devices is responsive.Translation ready and currently "
-"translated in Japanese(日本語).Dark mode compatible.Ready to widget area for "
-"bbPress.If you use plugin of YAHMAN Add-ons, you can Page views,Google "
-"Adsense,Analytics,Social,Profile,Table of contents,Related Posts,sitemap,SEO,"
-"JSON-LD structured data,Open Graph protocol(OGP),Blog card,Twitter timeline,"
-"Facebook timeline,Accelerated Mobile Pages(AMP),Carousel Slider.Let's try it."
+"Neatly is a clean and easy-to-read theme.It's a mobile-first design, but it "
+"works fine on other devices.This theme is fully responsive.Compatible with "
+"dark mode.bbPress widget area is available.It goes well with the plugin "
+"YAHMAN Add-ons created by the author of this theme.If you use plugin of "
+"YAHMAN Add-ons, you can Page views,Google Adsense,Analytics,Social,Profile,"
+"Table of contents,Related Posts,sitemap,SEO,JSON-LD structured data,Open "
+"Graph protocol(OGP),Blog card,Twitter timeline,Facebook timeline,Accelerated "
+"Mobile Pages(AMP),Carousel Slider.Let's try it."
 msgstr ""
 
 #. Author of the plugin/theme

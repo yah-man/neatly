@@ -6,7 +6,6 @@ define( 'NEATLY_THEME_URI', trailingslashit( esc_url( get_template_directory_uri
 define( 'NEATLY_VERSION', wp_get_theme(get_template())->Version );
 
 // Handle SVG icons.
-require_once NEATLY_THEME_DIR . '/classes/class_svg_icons.php';
 require_once NEATLY_THEME_DIR . '/inc/svg-icons.php';
 
 require_once NEATLY_THEME_DIR . 'inc/widgets.php' ;

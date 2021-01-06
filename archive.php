@@ -27,7 +27,10 @@ get_template_part( 'template-parts/index/format', 'archive_title' );
     neatly_the_posts_pagination();
     ?>
   </main>
-  <?php if(NEATLY_SIDEBAR)get_sidebar(); ?>
+  <?php
+  if(NEATLY_LEFT_SIDEBAR)get_sidebar('left');
+  if(NEATLY_RIGHT_SIDEBAR)get_sidebar('right');
+  ?>
 </div>
 
 

@@ -8,7 +8,7 @@ if ( ! function_exists( 'neatly_bbpress_widgets_init' ) ) :
   function neatly_bbpress_widgets_init() {
 
     register_sidebar(array(
-      'name' => esc_html__( 'Sidebar', 'neatly' ),
+      'name' => esc_html__( 'Right sidebar for bbPress', 'neatly' ),
       'id' => 'bbpress-sidebar-1',
       'description' => sprintf(esc_html__('Widgets in this area will be displayed in %s for bbPress.', 'neatly'),esc_html__( 'right sidebar', 'neatly' ) ),
       'before_widget' => '<div id="%1$s" class="widget s_widget %2$s br4 mb_L">',
@@ -18,7 +18,17 @@ if ( ! function_exists( 'neatly_bbpress_widgets_init' ) ) :
     ));
 
     register_sidebar(array(
-      'name' => esc_html__( 'Left of footer', 'neatly' ),
+      'name' => esc_html__( 'Left sidebar for bbPress', 'neatly' ),
+      'id' => 'bbpress-sidebar-2',
+      'description' => sprintf(esc_html__('Widgets in this area will be displayed in %s for bbPress.', 'neatly'),esc_html__( 'left sidebar', 'neatly' ) ),
+      'before_widget' => '<div id="%1$s" class="widget s_widget %2$s br4 mb_L">',
+      'after_widget' => '</div>',
+      'before_title' => '<div class="widget_title sw_title mb_S fsS fw_bold">',
+      'after_title' => '</div>'
+    ));
+
+    register_sidebar(array(
+      'name' => esc_html__( 'Left of footer for bbPress', 'neatly' ),
       'id' => 'bbpress-footer-1',
       'description' => sprintf(esc_html__('Widgets in this area will be displayed in %s for bbPress.', 'neatly'),esc_html__( 'the first column in the footer', 'neatly' ) ),
       'before_widget' => '<div id="%1$s" class="widget f_widget %2$s br4 mb_L">',
@@ -27,7 +37,7 @@ if ( ! function_exists( 'neatly_bbpress_widgets_init' ) ) :
       'after_title' => '</div>'
     ));
     register_sidebar(array(
-      'name' => esc_html__( 'Center of footer', 'neatly' ),
+      'name' => esc_html__( 'Center of footer for bbPress', 'neatly' ),
       'id' => 'bbpress-footer-2',
       'description' => sprintf(esc_html__('Widgets in this area will be displayed in %s for bbPress.', 'neatly'),esc_html__( 'the second column in the footer', 'neatly' ) ),
       'before_widget' => '<div id="%1$s" class="widget f_widget %2$s br4 mb_L">',
@@ -36,7 +46,7 @@ if ( ! function_exists( 'neatly_bbpress_widgets_init' ) ) :
       'after_title' => '</div>'
     ));
     register_sidebar(array(
-      'name' => esc_html__( 'Right of footer', 'neatly' ),
+      'name' => esc_html__( 'Right of footer for bbPress', 'neatly' ),
       'id' => 'bbpress-footer-3',
       'description' => sprintf(esc_html__('Widgets in this area will be displayed in %s for bbPress.', 'neatly'),esc_html__( 'the third column in the footer', 'neatly' ) ),
       'before_widget' => '<div id="%1$s" class="widget f_widget %2$s br4 mb_L">',
@@ -52,11 +62,19 @@ if ( ! function_exists( 'neatly_bbpress_sidebar' ) ) :
 
   function neatly_bbpress_sidebar(){
 
+    $sidebar['right'] = false;
+    $sidebar['left'] = false;
+
     if( is_active_sidebar( 'bbpress-sidebar-1' ) ){
-      return true;
-    }else{
-      return false;
+      $sidebar['right'] = true;
     }
+
+    if( is_active_sidebar( 'bbpress-sidebar-2' ) ){
+      $sidebar['left'] = true;
+    }
+
+    return $sidebar;
+
   }
 
 endif;

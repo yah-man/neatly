@@ -80,6 +80,11 @@ function neatly_register_required_plugins() {
 			'required' => false,
 		),
 		array(
+			'name'     => __( 'Brief Message', 'neatly' ),
+			'slug'     => 'brief-message',
+			'required' => false,
+		),
+		array(
 			'name'     => __( 'Simple Stripe', 'neatly' ),
 			'slug'     => 'simple-stripe',
 			'required' => false,

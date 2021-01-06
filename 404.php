@@ -7,6 +7,6 @@ get_header();
 		<h1 class="ta_c mb_M">404</h1>
 		<h2 class="ta_c"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'neatly' ); ?></h2>
 	</main>
-	<?php //if(NEATLY_SIDEBAR)get_sidebar(); ?>
+	<?php //if(NEATLY_RIGHT_SIDEBAR)get_sidebar(); ?>
 </div>
 <?php get_footer();

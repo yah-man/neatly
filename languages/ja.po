@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Neatly\n"
-"POT-Creation-Date: 2020-12-22 21:18+0900\n"
-"PO-Revision-Date: 2020-12-22 21:19+0900\n"
+"POT-Creation-Date: 2021-01-06 17:39+0900\n"
+"PO-Revision-Date: 2021-01-06 17:40+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -230,11 +230,11 @@ msgstr "投稿"
 msgid "Pages"
 msgstr "固定ページ"
 
-#: inc/customizer/customizer.php:45 inc/third/bbpress.php:11 inc/widgets.php:11
+#: inc/customizer/customizer.php:45
 msgid "Sidebar"
 msgstr "サイドバー"
 
-#: inc/customizer/customizer.php:51 inc/widgets.php:49
+#: inc/customizer/customizer.php:51 inc/widgets.php:59
 msgid "Header"
 msgstr "ヘッダー"
 
@@ -436,7 +436,7 @@ msgstr "公開日と更新日"
 msgid "Fit content"
 msgstr "コンテンツに合わせる"
 
-#: inc/customizer/setting-pages.php:125 inc/widgets.php:119
+#: inc/customizer/setting-pages.php:125 inc/widgets.php:139
 msgid "Page widget"
 msgstr "固定ページウィジェット"
 
@@ -452,7 +452,7 @@ msgstr "ウェブサイトの欄を非表示にする"
 msgid "Mail Field Disappear"
 msgstr "Eメールの欄を非表示にする"
 
-#: inc/customizer/setting-posts.php:162 inc/widgets.php:104
+#: inc/customizer/setting-posts.php:162 inc/widgets.php:124
 msgid "Post widget"
 msgstr "投稿ウィジェット"
 
@@ -1075,11 +1075,19 @@ msgid "Point Maker"
 msgstr "Point Maker"
 
 #: inc/tgm/tgm.php:83
+msgid "Brief Message"
+msgstr "Brief Message"
+
+#: inc/tgm/tgm.php:88
 msgid "Simple Stripe"
 msgstr "Simple Stripe"
 
-#: inc/third/bbpress.php:13 inc/third/bbpress.php:23 inc/third/bbpress.php:32
-#: inc/third/bbpress.php:41
+#: inc/third/bbpress.php:11
+msgid "Right sidebar for bbPress"
+msgstr "bbPress専用右サイドバー"
+
+#: inc/third/bbpress.php:13 inc/third/bbpress.php:23 inc/third/bbpress.php:33
+#: inc/third/bbpress.php:42 inc/third/bbpress.php:51
 #, php-format
 msgid "Widgets in this area will be displayed in %s for bbPress."
 msgstr "このbbPress専用エリアのウィジェットは%sに表示されます。"
@@ -1088,78 +1096,115 @@ msgstr "このbbPress専用エリアのウィジェットは%sに表示されま
 msgid "right sidebar"
 msgstr "右サイドバー"
 
-#: inc/third/bbpress.php:21 inc/widgets.php:21
-msgid "Left of footer"
-msgstr "フッターの左側"
+#: inc/third/bbpress.php:21
+msgid "Left sidebar for bbPress"
+msgstr "bbPress専用左サイドバー"
 
 #: inc/third/bbpress.php:23 inc/widgets.php:23
+msgid "left sidebar"
+msgstr "左サイドバー"
+
+#: inc/third/bbpress.php:31
+msgid "Left of footer for bbPress"
+msgstr "bbPress専用フッターの左側"
+
+#: inc/third/bbpress.php:33 inc/widgets.php:33
 msgid "the first column in the footer"
 msgstr "フッターの1列目"
 
-#: inc/third/bbpress.php:30 inc/widgets.php:30
-msgid "Center of footer"
-msgstr "フッターの中央"
+#: inc/third/bbpress.php:40
+msgid "Center of footer for bbPress"
+msgstr "bbPress専用フッターの中央"
 
-#: inc/third/bbpress.php:32 inc/widgets.php:32
+#: inc/third/bbpress.php:42 inc/widgets.php:42
 msgid "the second column in the footer"
 msgstr "フッターの2列目"
 
-#: inc/third/bbpress.php:39 inc/widgets.php:39
-msgid "Right of footer"
-msgstr "フッターの右側"
+#: inc/third/bbpress.php:49
+msgid "Right of footer for bbPress"
+msgstr "bbPress専用フッターの右側"
 
-#: inc/third/bbpress.php:41 inc/widgets.php:41
+#: inc/third/bbpress.php:51 inc/widgets.php:51
 msgid "the third column in the footer"
 msgstr "フッターの3列目"
 
-#: inc/widgets.php:13 inc/widgets.php:23 inc/widgets.php:32 inc/widgets.php:41
-#: inc/widgets.php:51 inc/widgets.php:62 inc/widgets.php:72 inc/widgets.php:82
-#: inc/widgets.php:94 inc/widgets.php:106 inc/widgets.php:121
+#: inc/widgets.php:11
+msgid "Right Sidebar"
+msgstr "右サイドバー"
+
+#: inc/widgets.php:13 inc/widgets.php:23 inc/widgets.php:33 inc/widgets.php:42
+#: inc/widgets.php:51 inc/widgets.php:61 inc/widgets.php:72 inc/widgets.php:82
+#: inc/widgets.php:92 inc/widgets.php:102 inc/widgets.php:114
+#: inc/widgets.php:126 inc/widgets.php:141
 #, php-format
 msgid "Widgets in this area will be displayed in %s."
 msgstr "このエリアのウィジェットは%sに表示されます。"
 
-#: inc/widgets.php:51 inc/widgets.php:72
+#: inc/widgets.php:21
+msgid "Left Sidebar"
+msgstr "左サイドバー"
+
+#: inc/widgets.php:31
+msgid "Left of footer"
+msgstr "フッターの左側"
+
+#: inc/widgets.php:40
+msgid "Center of footer"
+msgstr "フッターの中央"
+
+#: inc/widgets.php:49
+msgid "Right of footer"
+msgstr "フッターの右側"
+
+#: inc/widgets.php:61 inc/widgets.php:92
 msgid "header"
 msgstr "ヘッダー"
 
-#: inc/widgets.php:60
-msgid "Fixed Sidebar for Laptop"
-msgstr "PC専用サイドバー固定"
+#: inc/widgets.php:70
+msgid "Fixed Right Sidebar for Laptop"
+msgstr "PC専用右サイドバー固定"
 
-#: inc/widgets.php:62
+#: inc/widgets.php:72
 msgid "right sidebar and fix in bottom"
 msgstr "固定して右サイドバーの下部"
 
-#: inc/widgets.php:70 searchform.php:14
+#: inc/widgets.php:80
+msgid "Fixed Left Sidebar for Laptop"
+msgstr "PC専用左サイドバー固定"
+
+#: inc/widgets.php:82
+msgid "left sidebar and fix in bottom"
+msgstr "固定して左サイドバーの下部"
+
+#: inc/widgets.php:90 searchform.php:14
 msgid "Search"
 msgstr "検索"
 
-#: inc/widgets.php:80 templates/homepage.php:9
+#: inc/widgets.php:100 templates/homepage.php:9
 msgid "Custom Homepage"
 msgstr "カスタムホームページ"
 
-#: inc/widgets.php:82
+#: inc/widgets.php:102
 msgid "Homepage"
 msgstr "ホームページ"
 
-#: inc/widgets.php:92
+#: inc/widgets.php:112
 msgid "Index List"
 msgstr "インデックスリスト"
 
-#: inc/widgets.php:94
+#: inc/widgets.php:114
 msgid "index list"
 msgstr "インデックスリスト"
 
-#: inc/widgets.php:94
+#: inc/widgets.php:114
 msgid "change the number of insert widget area."
 msgstr "挿入順の指定はこちら。"
 
-#: inc/widgets.php:106
+#: inc/widgets.php:126
 msgid "contents of the post"
 msgstr "投稿記事"
 
-#: inc/widgets.php:121
+#: inc/widgets.php:141
 msgid "contents of the page"
 msgstr "固定ページ"
 
@@ -1260,6 +1305,9 @@ msgstr "やーまん"
 #. Author URI of the plugin/theme
 msgid "https://back2nature.jp/"
 msgstr "https://back2nature.jp/"
+
+#~ msgid "Fixed Sidebar for Laptop"
+#~ msgstr "PC専用サイドバー固定"
 
 #~ msgid ""
 #~ "Neatly is simple and clean , and readable , and full responsive WordPress "

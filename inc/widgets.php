@@ -8,9 +8,19 @@ if ( ! function_exists( 'neatly_widgets_init' ) ) :
   function neatly_widgets_init() {
 
     register_sidebar(array(
-      'name' => esc_html__( 'Sidebar', 'neatly' ),
+      'name' => esc_html__( 'Right Sidebar', 'neatly' ),
       'id' => 'sidebar-1',
       'description' => sprintf(esc_html__('Widgets in this area will be displayed in %s.', 'neatly'),esc_html__( 'right sidebar', 'neatly' ) ),
+      'before_widget' => '<div id="%1$s" class="widget s_widget %2$s br4 mb_L">',
+      'after_widget' => '</div>',
+      'before_title' => '<div class="widget_title sw_title mb_S fsS fw_bold">',
+      'after_title' => '</div>'
+    ));
+
+    register_sidebar(array(
+      'name' => esc_html__( 'Left Sidebar', 'neatly' ),
+      'id' => 'sidebar-2',
+      'description' => sprintf(esc_html__('Widgets in this area will be displayed in %s.', 'neatly'),esc_html__( 'left sidebar', 'neatly' ) ),
       'before_widget' => '<div id="%1$s" class="widget s_widget %2$s br4 mb_L">',
       'after_widget' => '</div>',
       'before_title' => '<div class="widget_title sw_title mb_S fsS fw_bold">',
@@ -57,9 +67,19 @@ if ( ! function_exists( 'neatly_widgets_init' ) ) :
 
 
     register_sidebar(array(
-      'name' => esc_html__( 'Fixed Sidebar for Laptop', 'neatly' ),
+      'name' => esc_html__( 'Fixed Right Sidebar for Laptop', 'neatly' ),
       'id' => 'sidebar-fixed',
       'description' => sprintf(esc_html__('Widgets in this area will be displayed in %s.', 'neatly'),esc_html__( 'right sidebar and fix in bottom', 'neatly' ) ),
+      'before_widget' => '<div id="%1$s" class="widget s_widget %2$s br4 mb_L">',
+      'after_widget' => '</div>',
+      'before_title' => '<div class="widget_title sw_title mb_S fsS fw_bold">',
+      'after_title' => '</div>'
+    ));
+
+    register_sidebar(array(
+      'name' => esc_html__( 'Fixed Left Sidebar for Laptop', 'neatly' ),
+      'id' => 'sidebar-fixed-2',
+      'description' => sprintf(esc_html__('Widgets in this area will be displayed in %s.', 'neatly'),esc_html__( 'left sidebar and fix in bottom', 'neatly' ) ),
       'before_widget' => '<div id="%1$s" class="widget s_widget %2$s br4 mb_L">',
       'after_widget' => '</div>',
       'before_title' => '<div class="widget_title sw_title mb_S fsS fw_bold">',

@@ -13,6 +13,10 @@ get_header();
 
 		endwhile; ?>
 	</main>
-	<?php if(NEATLY_SIDEBAR)get_sidebar(); ?>
+	<?php
+	if(NEATLY_LEFT_SIDEBAR)get_sidebar('left');
+	if(NEATLY_RIGHT_SIDEBAR)get_sidebar('right');
+	?>
+
 </div>
 <?php get_footer();

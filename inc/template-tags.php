@@ -188,51 +188,53 @@ endif;
 
 /*時差*/
 if ( ! function_exists( 'neatly_human_time_diff' ) ) :
-	function neatly_human_time_diff($time) {
+	function neatly_human_time_diff($post_time) {
 
-		$tzstring = get_option( 'timezone_string' );
-		$offset   = get_option( 'gmt_offset' );
+		$just_now = current_time('timestamp');
 
-    //Manual offset...
-    //@see http://us.php.net/manual/en/timezones.others.php
-    //@see https://bugs.php.net/bug.php?id=45543
-    //@see https://bugs.php.net/bug.php?id=45528
-    //IANA timezone database that provides PHP's timezone support uses POSIX (i.e. reversed) style signs
-		if( empty( $tzstring ) && 0 != $offset && floor( $offset ) == $offset ){
-			$offset_st = $offset > 0 ? "-$offset" : '+'.absint( $offset );
-			$tzstring  = 'Etc/GMT'.$offset_st;
-		}
 
-    //Issue with the timezone selected, set to 'UTC'
-		if( empty( $tzstring ) ){
-			$tzstring = 'UTC';
-		}
+		/*人間感覚　の日付差分*/
+		$diff['days'] = ( strtotime( date("Y-m-d" , $just_now  ) ) - strtotime( date("Y-m-d", $post_time ) ) ) / 86400;
 
-		$now = new DateTime('', new DateTimeZone( $tzstring ) );
+		$diff['year'] = (int) floor($diff['days'] / 365);
 
-		$interval = $now->diff(new DateTime($time, new DateTimeZone( $tzstring ) ));
-
-		//if ($interval->invert == 0) return __('just now','neatly');//'just now';
-		if ($interval->y == 1) return __('a year ago','neatly');
+		if ($diff['year'] === 1) return __('a year ago','neatly');
 		/* translators: %s: years */
-		if ($interval->y > 1) return  sprintf( __( '%s years ago' , 'neatly' ), $interval->format('%y') );
-		if ($interval->m == 1) return __('a month ago','neatly');
+		if ($diff['year'] > 1) return  sprintf( __( '%s years ago' , 'neatly' ), $diff['year'] );
+
+		$diff['month'] = (int) floor($diff['days'] / 30);
+
+		if ($diff['month'] === 1) return __('a month ago','neatly');
 		/* translators: %s: months */
-		if ($interval->m > 1) return  sprintf( __( '%s months ago' , 'neatly' ), $interval->format('%m') );
+		if ($diff['month'] > 1) return  sprintf( __( '%s months ago' , 'neatly' ), $diff['month'] );
+
+		$diff['week'] = (int) floor($diff['days'] / 7);
 		/* translators: %s: week */
-		if ($interval->d > 13) return sprintf( __('%s weeks ago','neatly'), intval($interval->d / 7) );
-		if ($interval->d == 7) return __('a week ago','neatly');
-		/* translators: %s: time */
-		if ($interval->d == 1) return sprintf( __('yesterday at %s','neatly'), get_post_time('h:i a') );
+		if ($diff['week'] > 1) return sprintf( __('%s weeks ago','neatly'), $diff['week'] );
+		if ($diff['week'] === 1) return __('a week ago','neatly');
 		/* translators: %s: date */
-		if ($interval->d > 1) return  sprintf( __( '%s days ago' , 'neatly' ), $interval->format('%d') );
-		if ($interval->h == 1) return __('an hour ago','neatly');
+		if ($diff['days'] > 1) return sprintf( __( '%s days ago' , 'neatly' ), $diff['days'] );
+
+		/*人間感覚　の時間差分*/
+		$diff['time'] = $just_now - $post_time ;
+
+		$diff['hour'] = (int) floor( $diff['time'] / 3600 );
+
+		if ($diff['hour'] === 1) return __('an hour ago','neatly');
+
 		/* translators: %s: hour */
-		if ($interval->h > 1) return sprintf( __( '%s hours ago' , 'neatly' ), $interval->format('%h') );
-		if ($interval->i == 1) return __('a minute ago','neatly');
+		if( $diff['hour'] <= 20 && $diff['hour'] >= 1) return sprintf( __( '%s hours ago' , 'neatly' ), $diff['hour'] );
+		/* translators: %s: post time */
+		if ($diff['hour'] >= 21 && $diff['days'] === 1) return sprintf( __('yesterday at %s','neatly'), date("h:i a", $post_time ) );
+
+		$diff['minute'] = (int) floor( $diff['time'] / 60 );
+
+		if ($diff['minute'] === 1) return __('a minute ago','neatly');
 		/* translators: %s: minute */
-		if ($interval->i > 1) return sprintf( __( '%s minutes ago' , 'neatly' ), $interval->format('%i') );
-		return __('just now','neatly');//$interval->format('just now');
+		if ($diff['minute'] > 1) return sprintf( __( '%s minutes ago' , 'neatly' ), $diff['minute'] );
+
+		return __('just now','neatly');
+
 	}
 endif;
 

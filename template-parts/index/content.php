@@ -76,7 +76,7 @@ while(have_posts()): the_post();
 
 		if( $mod_value['index_date_type'] === 'human'){
 
-			$human_time =  neatly_human_time_diff( date_i18n('Y-m-d H:i:s', get_the_time('U') ) );
+			$human_time =  neatly_human_time_diff( get_the_time('U') );
 			if($human_time !== '')$post_date = $human_time;
 
 		}elseif( $mod_value['index_date_type'] === 'normal'){

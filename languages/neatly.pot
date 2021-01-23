@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Neatly\n"
-"POT-Creation-Date: 2021-01-06 17:39+0900\n"
+"POT-Creation-Date: 2021-01-23 21:39+0900\n"
 "PO-Revision-Date: 2019-05-06 14:52+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -86,6 +86,15 @@ msgstr ""
 #: comments.php:159
 msgid ""
 "Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: footer.php:12
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#: footer.php:13
+msgid "https://dev.back2nature.jp/en/neatly/"
 msgstr ""
 
 #: functions.php:41
@@ -509,50 +518,50 @@ msgstr ""
 msgid "Display page view to logout user."
 msgstr ""
 
-#: inc/template-tags.php:216
+#: inc/template-tags.php:201
 msgid "a year ago"
 msgstr ""
 
-#: inc/template-tags.php:218
+#: inc/template-tags.php:203
 #, php-format
 msgid "%s years ago"
 msgstr ""
 
-#: inc/template-tags.php:219
+#: inc/template-tags.php:207
 msgid "a month ago"
 msgstr ""
 
-#: inc/template-tags.php:221
+#: inc/template-tags.php:209
 #, php-format
 msgid "%s months ago"
 msgstr ""
 
-#: inc/template-tags.php:223
+#: inc/template-tags.php:213
 #, php-format
 msgid "%s weeks ago"
 msgstr ""
 
-#: inc/template-tags.php:224
+#: inc/template-tags.php:214
 msgid "a week ago"
 msgstr ""
 
-#: inc/template-tags.php:226
-#, php-format
-msgid "yesterday at %s"
-msgstr ""
-
-#: inc/template-tags.php:228
+#: inc/template-tags.php:216
 #, php-format
 msgid "%s days ago"
 msgstr ""
 
-#: inc/template-tags.php:229
+#: inc/template-tags.php:223
 msgid "an hour ago"
 msgstr ""
 
-#: inc/template-tags.php:231
+#: inc/template-tags.php:226
 #, php-format
 msgid "%s hours ago"
+msgstr ""
+
+#: inc/template-tags.php:228
+#, php-format
+msgid "yesterday at %s"
 msgstr ""
 
 #: inc/template-tags.php:232
@@ -564,23 +573,23 @@ msgstr ""
 msgid "%s minutes ago"
 msgstr ""
 
-#: inc/template-tags.php:235
+#: inc/template-tags.php:236
 msgid "just now"
 msgstr ""
 
-#: inc/template-tags.php:303 inc/template-tags.php:336
+#: inc/template-tags.php:305 inc/template-tags.php:338
 msgid "Edit"
 msgstr ""
 
-#: inc/template-tags.php:348
+#: inc/template-tags.php:350
 msgid "Reply"
 msgstr ""
 
-#: inc/template-tags.php:355
+#: inc/template-tags.php:357
 msgid "*Your comment is awaiting moderation.*"
 msgstr ""
 
-#: inc/template-tags.php:411 inc/template-tags.php:440
+#: inc/template-tags.php:413 inc/template-tags.php:442
 msgid "Posts navigation"
 msgstr ""
 
@@ -1259,10 +1268,6 @@ msgstr ""
 
 #. Theme Name of the plugin/theme
 msgid "Neatly"
-msgstr ""
-
-#. Theme URI of the plugin/theme
-msgid "https://back2nature.jp/en/themes/neatly"
 msgstr ""
 
 #. Description of the plugin/theme

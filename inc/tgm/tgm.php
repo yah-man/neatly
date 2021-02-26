@@ -85,6 +85,11 @@ function neatly_register_required_plugins() {
 			'required' => false,
 		),
 		array(
+			'name'     => __( 'Just Output', 'neatly' ),
+			'slug'     => 'just-output',
+			'required' => false,
+		),
+		array(
 			'name'     => __( 'Simple Stripe', 'neatly' ),
 			'slug'     => 'simple-stripe',
 			'required' => false,

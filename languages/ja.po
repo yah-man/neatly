@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Neatly\n"
-"POT-Creation-Date: 2021-01-23 21:39+0900\n"
-"PO-Revision-Date: 2021-01-23 21:40+0900\n"
+"POT-Creation-Date: 2021-02-26 17:47+0900\n"
+"PO-Revision-Date: 2021-02-26 17:47+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -1088,6 +1088,10 @@ msgid "Brief Message"
 msgstr "Brief Message"
 
 #: inc/tgm/tgm.php:88
+msgid "Just Output"
+msgstr "Just Output"
+
+#: inc/tgm/tgm.php:93
 msgid "Simple Stripe"
 msgstr "Simple Stripe"
 

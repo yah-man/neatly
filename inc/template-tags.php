@@ -35,7 +35,7 @@ class NEATLY_WALKER_NAV_MENU extends Walker_Nav_Menu {
 
 				$label = "\n" .'<label class="drop_icon fs16 m0" for="'.$input_id.'">';
 				if($depth !== 0){
-					$label .= "\n" . '<span class="svg10 dn001 db lh_1">'. neatly_get_theme_svg( 'caret-down' ) .'</span><span class="svg10 dn110 db lh_1">'. neatly_get_theme_svg( 'caret-right' ) .'</span>';
+					$label .= "\n" . '<span class="svg10 has_ch db lh_1">'. neatly_get_theme_svg( 'caret-down' ) .'</span>';
 				}else{
 					$label .= "\n" . '<span class="svg10 db lh_1">'. neatly_get_theme_svg( 'caret-down' ) .'</span>';
 				}

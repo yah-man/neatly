@@ -3,5 +3,26 @@
     opacity: 0; }
   100% {
     opacity: 1; } }
+@keyframes sw_in {
+  0% {
+    transform: scale(0) translate3d(0, 0, 0); }
+  0.1% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1); } }
+@keyframes sw_out {
+  0% {
+    transform: scale(1); }
+  99.9% {
+    transform: scale(1); }
+  100% {
+    transform: scale(0); } }
+@keyframes sw_open {
+  0% {
+    visibility: hidden; }
+  99.9% {
+    visibility: hidden; }
+  100% {
+    visibility: visible; } }
 
 /*# sourceMappingURL=keyframes.css.map */

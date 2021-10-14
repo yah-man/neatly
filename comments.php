@@ -95,71 +95,65 @@ if ( post_password_required() ) {
 			<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'neatly' ); ?></p>
 		<?php
 	endif;
-	if ( !function_exists('yahman_addons_amp_head')):
-		comment_form( neatly_comment_custom_fields() );
-		elseif (comments_open()): ?>
-			<a class="comment_button_amp" rel="nofollow" href="<?php echo esc_url(get_the_permalink())  ?>#respond"><?php esc_html_e( 'Write a comment', 'neatly' ); ?></a>
-			<?php else: ?>
-				<p class="no-comments fw_bold"><?php esc_html_e( 'Comments are closed.', 'neatly' ); ?></p>
-			<?php endif;
-			?>
+	comment_form( neatly_comment_custom_fields() );
+	?>
 
-		</div><!-- #comments -->
+</div><!-- #comments -->
 
-		<?php
+<?php
 
-		function neatly_comment_custom_fields(){
-			$commenter = wp_get_current_commenter();
+function neatly_comment_custom_fields(){
+	$commenter = wp_get_current_commenter();
 
-			$req = array();
-			$req['aria'] = '' ;
-			$req['placeholder'] = '';
-			$req['validate'] = '';
-			$req['consent']   = empty( $commenter['comment_author_email'] ) ? '' : ' checked="checked"';
+	$req = array();
+	$req['aria'] = '' ;
+	$req['placeholder'] = '';
+	$req['validate'] = '';
+	$req['consent']   = empty( $commenter['comment_author_email'] ) ? '' : ' checked="checked"';
 
-			if( get_option( 'require_name_email' ) ){
-				$req['aria'] = " aria-required='true'";
-				$req['placeholder']  = " *";
-				$req['validate'] = ' validate';
-			}
+	if( get_option( 'require_name_email' ) ){
+		$req['aria'] = " aria-required='true'";
+		$req['placeholder']  = " *";
+		$req['validate'] = ' validate';
+	}
 
 
 
 
 
-			$email_note = array();
-			if(get_theme_mod( 'neatly_post_comments_mail',false)) $email_note = array('comment_notes_before' => '');
+	$email_note = array();
+	if(get_theme_mod( 'neatly_post_comments_mail',false)) $email_note = array('comment_notes_before' => '');
 
-			return array(
+	return array(
             // change the title of send button
-				'label_submit'=> esc_html__('Post Comment', 'neatly'),
+		'label_submit'=> esc_html__('Post Comment', 'neatly'),
             // change the title of the reply section
-				'title_reply'=> esc_html__('Leave a Comment', 'neatly'),
-				'class_submit'          => 'submit',
+		'title_reply'=> esc_html__('Leave a Comment', 'neatly'),
+		'class_submit'          => 'submit',
             // redefine your own textarea (the comment body)
-				'comment_field' => '
-				<div class="form-group mb_M"><div class="input-field"><textarea class="materialize-textarea comment_input" type="text" rows="10" id="textarea1" name="comment" aria-required="true" placeholder="'. esc_attr__('Comments', 'neatly') .'"></textarea></div></div>',
+		'comment_field' => '
+		<div class="form-group mb_M"><div class="input-field"><textarea class="materialize-textarea comment_input" type="text" rows="10" id="textarea1" name="comment" aria-required="true" placeholder="'. esc_attr__('Comments', 'neatly') .'"></textarea></div></div>',
 
-				'fields' => apply_filters( 'comment_form_default_fields', array(
-					'author' =>'' .
-					'<div class="form-group mb_M"><div class="input-field">' .
-					'<input class="comment_input'.$req['validate'].'" id="name" name="author" placeholder="'. esc_attr_x('Name', 'comment placeholder' , 'neatly') .$req['placeholder'].'" type="text" value="' . esc_attr( $commenter['comment_author'] ) .
-					'" size="30"' . $req['aria'] . ' /></div></div>',
+		'fields' => apply_filters( 'comment_form_default_fields', array(
+			'author' =>'' .
+			'<div class="form-group mb_M"><div class="input-field">' .
+			'<input class="comment_input'.$req['validate'].'" id="name" name="author" placeholder="'. esc_attr_x('Name', 'comment placeholder' , 'neatly') .$req['placeholder'].'" type="text" value="' . esc_attr( $commenter['comment_author'] ) .
+			'" size="30"' . $req['aria'] . ' /></div></div>',
 
-					'email' => get_theme_mod( 'neatly_post_comments_mail',false) ? '' :
-					'<div class="form-group mb_M"><div class="input-field">' .
-					'<input class="comment_input'.$req['validate'].'" id="email" name="email" placeholder="'. esc_attr__('Email', 'neatly') .$req['placeholder'].'" type="email" value="' . esc_attr(  $commenter['comment_author_email'] ) .
-					'" size="30"' . $req['aria'] . ' /></div></div>',
+			'email' => get_theme_mod( 'neatly_post_comments_mail',false) ? '' :
+			'<div class="form-group mb_M"><div class="input-field">' .
+			'<input class="comment_input'.$req['validate'].'" id="email" name="email" placeholder="'. esc_attr__('Email', 'neatly') .$req['placeholder'].'" type="email" value="' . esc_attr(  $commenter['comment_author_email'] ) .
+			'" size="30"' . $req['aria'] . ' /></div></div>',
 
-					'url' => get_theme_mod( 'neatly_post_comments_website',false) ? '' :
-					'<div class="form-group mb_M"><div class="input-field"><input class="comment_input" placeholder="'. esc_attr__('Website', 'neatly') .'" id="url" name="url" type="text" value="' . esc_attr( $commenter['comment_author_url'] ) .
-					'" size="30" /></div></div>',
+			'url' => get_theme_mod( 'neatly_post_comments_website',false) ? '' :
+			'<div class="form-group mb_M"><div class="input-field"><input class="comment_input" placeholder="'. esc_attr__('Website', 'neatly') .'" id="url" name="url" type="text" value="' . esc_attr( $commenter['comment_author_url'] ) .
+			'" size="30" /></div></div>',
 
-					'cookies' => get_option( 'show_comments_cookies_opt_in' ) ? '<p class="comment-form-cookies-consent f_box ai_c mb8"><input id="wp-comment-cookies-consent" class="mr8" name="wp-comment-cookies-consent" type="checkbox" value="yes"' . $req['consent'] . ' />' .
-					'<label for="wp-comment-cookies-consent" class="fsS m0">' . esc_html__( 'Save my name, email, and website in this browser for the next time I comment.', 'neatly' ) . '</label></p>' : '',
-				)
-			),
-			) + $email_note;
-		}
+			'cookies' => get_option( 'show_comments_cookies_opt_in' ) ? '<p class="comment-form-cookies-consent f_box ai_c mb8"><input id="wp-comment-cookies-consent" class="mr8" name="wp-comment-cookies-consent" type="checkbox" value="yes"' . $req['consent'] . ' />' .
+			'<label for="wp-comment-cookies-consent" class="fsS m0">' . esc_html__( 'Save my name, email, and website in this browser for the next time I comment.', 'neatly' ) . '</label></p>' : '',
+		)
+	),
+	) + $email_note;
+}
 
 

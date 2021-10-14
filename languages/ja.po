@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Neatly\n"
-"POT-Creation-Date: 2021-02-26 17:47+0900\n"
-"PO-Revision-Date: 2021-02-26 17:47+0900\n"
+"POT-Creation-Date: 2021-10-14 12:27+0900\n"
+"PO-Revision-Date: 2021-10-14 12:28+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -50,40 +50,36 @@ msgstr "以前のコメント"
 msgid "Newer Comments"
 msgstr "新しいコメント"
 
-#: comments.php:95 comments.php:103
+#: comments.php:95
 msgid "Comments are closed."
 msgstr "コメントは停止中です。"
 
-#: comments.php:101
-msgid "Write a comment"
-msgstr "コメントを書く"
-
-#: comments.php:135
+#: comments.php:129
 msgid "Post Comment"
 msgstr "コメントを送信"
 
-#: comments.php:137
+#: comments.php:131
 msgid "Leave a Comment"
 msgstr "コメントする"
 
-#: comments.php:141 inc/customizer/setting-posts.php:116
+#: comments.php:135 inc/customizer/setting-posts.php:116
 msgid "Comments"
 msgstr "コメント"
 
-#: comments.php:146
+#: comments.php:140
 msgctxt "comment placeholder"
 msgid "Name"
 msgstr "お名前"
 
-#: comments.php:151
+#: comments.php:145
 msgid "Email"
 msgstr "E メール"
 
-#: comments.php:155
+#: comments.php:149
 msgid "Website"
 msgstr "ウェブサイト"
 
-#: comments.php:159
+#: comments.php:153
 msgid ""
 "Save my name, email, and website in this browser for the next time I comment."
 msgstr ""
@@ -110,6 +106,10 @@ msgstr "フッターのメニュー"
 #: functions.php:43
 msgid "Credit Menu"
 msgstr "クレジットエリアのメニュー"
+
+#: header.php:16
+msgid "Skip to content"
+msgstr "コンテンツへスキップ"
 
 #: inc/breadcrumbs.php:11
 msgid "Home"
@@ -1290,22 +1290,22 @@ msgstr "Neatly"
 msgid ""
 "Neatly is a clean and easy-to-read theme.It's a mobile-first design, but it "
 "works fine on other devices.This theme is fully responsive.Compatible with "
-"dark mode.bbPress widget area is available.It goes well with the plugin "
-"YAHMAN Add-ons created by the author of this theme.If you use plugin of "
-"YAHMAN Add-ons, you can Page views,Google Adsense,Analytics,Social,Profile,"
-"Table of contents,Related Posts,sitemap,SEO,JSON-LD structured data,Open "
-"Graph protocol(OGP),Blog card,Twitter timeline,Facebook timeline,Accelerated "
-"Mobile Pages(AMP),Carousel Slider.Let's try it."
+"dark mode.bbPress widget area is available.Translation ready and currently "
+"translated in Japanese(ú{ê).It goes well with the plugin YAHMAN Add-ons "
+"created by the author of this theme.If you use plugin of YAHMAN Add-ons, you "
+"can Page views,Google Adsense,Analytics,Social,Profile,Table of contents,"
+"Related Posts,sitemap,SEO,JSON-LD structured data,Open Graph protocol(OGP),"
+"Blog card,Twitter timeline,Facebook timeline,Carousel Slider.Let's try it."
 msgstr ""
 "Neatlyはクリーンで文章が読みやすいテーマです。モバイルファーストの設計ですが"
 "他のデバイスでも問題ありません。このテーマはフルレスポンシブです。ダークモー"
-"ドに対応済み。bbPressのウィジェットエリアを用意。このテーマの作者が作成してい"
-"るプラグインYAHMAN Add-onsと相性が良いです。プラグインYAHMAN Add-ons を使用す"
-"ると、ページビュー、Google アドセンス、アナリティクス、SNS のリンク、プロ"
-"フィール、目次、関連記事、サイトマップ、SEO、JSON-LDを使用した構造化データ、"
-"OGP、ブログカード、Twitter タイムライン、Facebook タイムライン、Accelerated "
-"Mobile Pages(AMP) 、カルーセルスライダーを使用することができます。是非試して"
-"みてください。"
+"ドに対応済み。bbPressのウィジェットエリアを用意。現在日本語の翻訳に対応してい"
+"ます。このテーマの作者が作成しているプラグインYAHMAN Add-onsと相性が良いで"
+"す。プラグインYAHMAN Add-ons を使用すると、ページビュー、Google アドセンス、"
+"アナリティクス、SNS のリンク、プロフィール、目次、関連記事、サイトマップ、"
+"SEO、JSON-LDを使用した構造化データ、OGP、ブログカード、Twitter タイムライン、"
+"Facebook タイムライン、カルーセルスライダーを使用することができます。是非試し"
+"てみてください。"
 
 #. Author of the plugin/theme
 msgid "YAHMAN"
@@ -1314,6 +1314,30 @@ msgstr "やーまん"
 #. Author URI of the plugin/theme
 msgid "https://back2nature.jp/"
 msgstr "https://back2nature.jp/"
+
+#~ msgid "Write a comment"
+#~ msgstr "コメントを書く"
+
+#~ msgid ""
+#~ "Neatly is a clean and easy-to-read theme.It's a mobile-first design, but "
+#~ "it works fine on other devices.This theme is fully responsive.Compatible "
+#~ "with dark mode.bbPress widget area is available.It goes well with the "
+#~ "plugin YAHMAN Add-ons created by the author of this theme.If you use "
+#~ "plugin of YAHMAN Add-ons, you can Page views,Google Adsense,Analytics,"
+#~ "Social,Profile,Table of contents,Related Posts,sitemap,SEO,JSON-LD "
+#~ "structured data,Open Graph protocol(OGP),Blog card,Twitter timeline,"
+#~ "Facebook timeline,Accelerated Mobile Pages(AMP),Carousel Slider.Let's try "
+#~ "it."
+#~ msgstr ""
+#~ "Neatlyはクリーンで文章が読みやすいテーマです。モバイルファーストの設計です"
+#~ "が他のデバイスでも問題ありません。このテーマはフルレスポンシブです。ダーク"
+#~ "モードに対応済み。bbPressのウィジェットエリアを用意。このテーマの作者が作"
+#~ "成しているプラグインYAHMAN Add-onsと相性が良いです。プラグインYAHMAN Add-"
+#~ "ons を使用すると、ページビュー、Google アドセンス、アナリティクス、SNS の"
+#~ "リンク、プロフィール、目次、関連記事、サイトマップ、SEO、JSON-LDを使用した"
+#~ "構造化データ、OGP、ブログカード、Twitter タイムライン、Facebook タイムライ"
+#~ "ン、Accelerated Mobile Pages(AMP) 、カルーセルスライダーを使用することがで"
+#~ "きます。是非試してみてください。"
 
 #~ msgid "https://back2nature.jp/en/themes/neatly"
 #~ msgstr "https://back2nature.jp/en/themes/neatly"

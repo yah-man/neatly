@@ -35,7 +35,7 @@ if ($prevpost) { /*前の記事が存在しているとき*/
 }else{
 
 	echo '<a href="' . esc_url(home_url()) . '" title="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . '" class="adjacent adjacent_L p16_0 f_box ai_c h100">';
-	echo '<p class="adjacent_title adjacent_title_L p8"><span class="sub_fc ml8 svg32">'. neatly_get_theme_svg( 'home' ) .'</span></p>';
+	echo '<p class="adjacent_title adjacent_title_L p8"><span class="sub_fc ml8 svg24">'. neatly_get_theme_svg( 'home' ) .'</span></p>';
 
 }
 
@@ -59,7 +59,7 @@ if ( $nextpost ) { /*次の記事が存在しているとき*/
 
 	echo '<a href="' . esc_url(home_url()) . '" title="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . '" class="adjacent adjacent_R p16_0 f_box ai_c jc_fe h100">';
 
-	echo '<p class="adjacent_title adjacent_title_R p8"><span class="sub_fc mr8 svg32">'. neatly_get_theme_svg( 'home' ) .'</span></p>';
+	echo '<p class="adjacent_title adjacent_title_R p8"><span class="sub_fc mr8 svg24">'. neatly_get_theme_svg( 'home' ) .'</span></p>';
 
 }
 

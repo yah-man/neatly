@@ -13,6 +13,7 @@ wp_head();
 </head>
 <body <?php body_class(); ?> ontouchstart="">
 	<?php wp_body_open(); ?>
+	<a class="skip-link screen-reader-text" href="#main_wrap"><?php _e( 'Skip to content', 'neatly' ); ?></a>
 	<header id="h_wrap" class="h_wrap f_box f_col ai_c w100" itemscope itemtype="https://schema.org/WPHeader">
 
 		<div class="wrap_frame w100">

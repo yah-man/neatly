@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Neatly\n"
-"POT-Creation-Date: 2021-02-26 17:47+0900\n"
+"POT-Creation-Date: 2021-10-14 12:27+0900\n"
 "PO-Revision-Date: 2019-05-06 14:52+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -50,40 +50,36 @@ msgstr ""
 msgid "Newer Comments"
 msgstr ""
 
-#: comments.php:95 comments.php:103
+#: comments.php:95
 msgid "Comments are closed."
 msgstr ""
 
-#: comments.php:101
-msgid "Write a comment"
-msgstr ""
-
-#: comments.php:135
+#: comments.php:129
 msgid "Post Comment"
 msgstr ""
 
-#: comments.php:137
+#: comments.php:131
 msgid "Leave a Comment"
 msgstr ""
 
-#: comments.php:141 inc/customizer/setting-posts.php:116
+#: comments.php:135 inc/customizer/setting-posts.php:116
 msgid "Comments"
 msgstr ""
 
-#: comments.php:146
+#: comments.php:140
 msgctxt "comment placeholder"
 msgid "Name"
 msgstr ""
 
-#: comments.php:151
+#: comments.php:145
 msgid "Email"
 msgstr ""
 
-#: comments.php:155
+#: comments.php:149
 msgid "Website"
 msgstr ""
 
-#: comments.php:159
+#: comments.php:153
 msgid ""
 "Save my name, email, and website in this browser for the next time I comment."
 msgstr ""
@@ -107,6 +103,10 @@ msgstr ""
 
 #: functions.php:43
 msgid "Credit Menu"
+msgstr ""
+
+#: header.php:16
+msgid "Skip to content"
 msgstr ""
 
 #: inc/breadcrumbs.php:11
@@ -1278,12 +1278,12 @@ msgstr ""
 msgid ""
 "Neatly is a clean and easy-to-read theme.It's a mobile-first design, but it "
 "works fine on other devices.This theme is fully responsive.Compatible with "
-"dark mode.bbPress widget area is available.It goes well with the plugin "
-"YAHMAN Add-ons created by the author of this theme.If you use plugin of "
-"YAHMAN Add-ons, you can Page views,Google Adsense,Analytics,Social,Profile,"
-"Table of contents,Related Posts,sitemap,SEO,JSON-LD structured data,Open "
-"Graph protocol(OGP),Blog card,Twitter timeline,Facebook timeline,Accelerated "
-"Mobile Pages(AMP),Carousel Slider.Let's try it."
+"dark mode.bbPress widget area is available.Translation ready and currently "
+"translated in Japanese(ú{ê).It goes well with the plugin YAHMAN Add-ons "
+"created by the author of this theme.If you use plugin of YAHMAN Add-ons, you "
+"can Page views,Google Adsense,Analytics,Social,Profile,Table of contents,"
+"Related Posts,sitemap,SEO,JSON-LD structured data,Open Graph protocol(OGP),"
+"Blog card,Twitter timeline,Facebook timeline,Carousel Slider.Let's try it."
 msgstr ""
 
 #. Author of the plugin/theme

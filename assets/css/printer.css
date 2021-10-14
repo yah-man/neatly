@@ -21,12 +21,14 @@
   #toggle-menu,
   .adjacents,
   #breadcrumb,
-  #header_widget,
-  #about_author,
-  .widget,
-  .social_share_list,
+  #rp_wrap,
   .cta_box,
-  .blog_card {
+  #about_author,
+  #social_share,
+  .post_widget,
+  #header_widget,
+  label svg,
+  #toc {
     display: none !important; }
 
   .h_wrap {

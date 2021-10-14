@@ -1,13 +1,15 @@
 === Neatly ===
 Contributors: back2nature
-Tested up to: 5.7
-Stable tag: 0.8.0
+Requires at least: 4.8
+Tested up to: 5.8
+Requires PHP: 5.3
+Stable tag: 0.8.2
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: block-styles, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, footer-widgets, one-column, post-formats, right-sidebar, sticky-post, theme-options, threaded-comments, three-columns, translation-ready, two-columns, blog
 
 == Description ==
-Neatly is a clean and easy-to-read theme.It's a mobile-first design, but it works fine on other devices.This theme is fully responsive.Compatible with dark mode.bbPress widget area is available.It goes well with the plugin YAHMAN Add-ons created by the author of this theme.If you use plugin of YAHMAN Add-ons, you can Page views,Google Adsense,Analytics,Social,Profile,Table of contents,Related Posts,sitemap,SEO,JSON-LD structured data,Open Graph protocol(OGP),Blog card,Twitter timeline,Facebook timeline,Accelerated Mobile Pages(AMP),Carousel Slider.Let's try it.
+Neatly is a clean and easy-to-read theme.It's a mobile-first design, but it works fine on other devices.This theme is fully responsive.Compatible with dark mode.bbPress widget area is available.Translation ready and currently translated in Japanese(日本語).It goes well with the plugin YAHMAN Add-ons created by the author of this theme.If you use plugin of YAHMAN Add-ons, you can Page views,Google Adsense,Analytics,Social,Profile,Table of contents,Related Posts,sitemap,SEO,JSON-LD structured data,Open Graph protocol(OGP),Blog card,Twitter timeline,Facebook timeline,Carousel Slider.Let's try it.
 
 == Installation ==
 
@@ -65,6 +67,15 @@ Copyright: Ryan Moreno (https://stocksnap.io/author/48680)
 
 
 == Changelog ==
+
+= 0.8.2 =
+* Released: October 14, 2021
+fixed: Minor fix.
+
+= 0.8.1 =
+* Released: October 14, 2021
+add:Skip to content.
+fixed: for YAHMAN Add-ons.
 
 = 0.8.0 =
 * Released: February 26, 2021

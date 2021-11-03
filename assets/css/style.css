@@ -800,6 +800,7 @@ input:focus::-webkit-input-placeholder {
     left: -100%;
     margin: auto;
     display: block;
+    height: 100%;
     min-width: 100%;
     min-height: 100%;
     object-fit: cover; }
@@ -1321,8 +1322,6 @@ input#sw:checked ~ #sw_wrap {
   border-radius: 0 4px 4px 0; }
   .bc_thum:before {
     padding-top: 50%; }
-  .bc_thum img {
-    height: 100%; }
 
 .bc_entry {
   padding: 8px 12px; }

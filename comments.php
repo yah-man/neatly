@@ -113,13 +113,9 @@ function neatly_comment_custom_fields(){
 
 	if( get_option( 'require_name_email' ) ){
 		$req['aria'] = ' required="required" aria-required="true"';
-		$req['placeholder']  = '&ensp;'.esc_html_x('*', 'comment required' ,'neatly');
+		$req['placeholder']  = '&ensp;<span class="required">'.esc_html_x('*', 'comment required' ,'neatly').'</span>';
 		$req['validate'] = ' validate';
 	}
-
-	$placeholder_req  = ( $req ? '&ensp;'.esc_html_x('*', 'comment required' ,'neatly') : '' );
-
-
 
 	$email_note = array();
 	if(get_theme_mod( 'neatly_post_comments_mail',false)) $email_note = array('comment_notes_before' => '');
@@ -132,21 +128,21 @@ function neatly_comment_custom_fields(){
 		'class_submit'          => 'submit',
             // redefine your own textarea (the comment body)
 		'comment_field' => '
-		<div class="form-group mb_M"><div class="input-field-head">' .esc_html__('Comments', 'neatly') .$placeholder_req.'</div><div class="input-field"><textarea class="materialize-textarea comment_input" type="text" rows="10" id="textarea1" name="comment" required="required" aria-required="true" aria-label="'. esc_attr__('Comments', 'neatly') .'"></textarea></div></div>',
+		<div class="form-group mb_M"><div class="input-field-head"><label for="comment">' .esc_html__('Comments', 'neatly') .'&ensp;<span class="required">'.esc_html_x('*', 'comment required' ,'neatly').'</span></label></div><div class="input-field"><textarea class="materialize-textarea comment_input" type="text" rows="10" id="comment" name="comment" required="required" aria-required="true" aria-label="'. esc_attr__('Comments', 'neatly') .'"></textarea></div></div>',
 
 		'fields' => apply_filters( 'comment_form_default_fields', array(
 			'author' =>'' .
-			'<div class="form-group mb_M"><div class="input-field-head">' .esc_html_x('Name', 'comment placeholder' , 'neatly') .$placeholder_req.'</div><div class="input-field">' .
-			'<input class="comment_input'.$req['validate'].'" id="name" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) .
+			'<div class="form-group mb_M"><div class="input-field-head"><label for="author">' .esc_html_x('Name', 'comment placeholder' , 'neatly') .$req['placeholder'].'</label></div><div class="input-field">' .
+			'<input class="comment_input'.$req['validate'].'" id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) .
 			'" size="30"' . $req['aria'] . ' aria-label="'. esc_attr_x('Name', 'comment placeholder' ,'neatly') .'" /></div></div>',
 
 			'email' => get_theme_mod( 'neatly_post_comments_mail',false) ? '' :
-			'<div class="form-group mb_M"><div class="input-field-head">' .esc_html__('Email', 'neatly') .$placeholder_req.'</div><div class="input-field">' .
+			'<div class="form-group mb_M"><div class="input-field-head"><label for="email">' .esc_html__('Email', 'neatly') .$req['placeholder'].'</label></div><div class="input-field">' .
 			'<input class="comment_input'.$req['validate'].'" id="email" name="email" type="email" value="' . esc_attr(  $commenter['comment_author_email'] ) .
 			'" size="30"' . $req['aria'] . ' aria-label="'. esc_attr__('Email', 'neatly') .'" /></div></div>',
 
 			'url' => get_theme_mod( 'neatly_post_comments_website',false) ? '' :
-			'<div class="form-group mb_M"><div class="input-field-head">' .esc_html__('Website', 'neatly').'</div><div class="input-field"><input class="comment_input" id="url" name="url" type="text" value="' . esc_attr( $commenter['comment_author_url'] ) .
+			'<div class="form-group mb_M"><div class="input-field-head"><label for="url">' .esc_html__('Website', 'neatly').'</label></div><div class="input-field"><input class="comment_input" id="url" name="url" type="text" value="' . esc_attr( $commenter['comment_author_url'] ) .
 			'" size="30" aria-label="'. esc_attr__('Website', 'neatly') .'" /></div></div>',
 
 			'cookies' => get_option( 'show_comments_cookies_opt_in' ) ? '<p class="comment-form-cookies-consent f_box ai_c mb8"><input id="wp-comment-cookies-consent" class="mr8" name="wp-comment-cookies-consent" type="checkbox" value="yes"' . $req['consent'] . ' />' .
